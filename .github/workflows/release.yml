@@ -12,6 +12,10 @@ jobs:
         runs-on: ubuntu-latest
         steps:
             - name: Checkout repo
+              uses: actions/checkout@v2
+
+            #needed for lerna / semantic release to correctly version
+            - name: Pulls all tags & commits
               run: git fetch --prune --unshallow --tags
 
             - name: Configure CI Git User
