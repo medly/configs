@@ -5,7 +5,8 @@
     "sideEffects": false,
     "main": "index.js",
     "publishConfig": {
-        "access": "public"
+        "access": "public",
+        "registry": "https://registry.npmjs.org/medly"
     },
     "files": [
         "index.js"
