@@ -11,7 +11,8 @@ module.exports = function (api) {
         plugins = [],
         ignore = ['node_modules'];
 
-    if (api.env('production') || api.env('development')) ignore.push('**/*.test.ts', '**/*.test.tsx', '__snapshots__');
+    if (api.env('production') || api.env('development'))
+        ignore.push('**/*.test.ts', '**/*.test.tsx', '**/*.test.js', '**/*.test.jsx', '__snapshots__');
 
     if (api.env('test')) plugins.push('@babel/plugin-transform-runtime');
 
