@@ -1,0 +1,26 @@
+{
+    "name": "@medly/babel-config",
+    "description": "Basic babel config for simple ts library",
+    "version": "0.0.0",
+    "sideEffects": false,
+    "main": "index.js",
+    "publishConfig": {
+        "access": "public"
+    },
+    "files": [
+        "index.js"
+    ],
+    "license": "MIT",
+    "keywords": [
+        "Medly",
+        "babel",
+        "config"
+    ],
+    "author": "Mukul Bansal",
+    "dependencies": {
+        "@babel/core": "^7.14.2",
+        "@babel/plugin-transform-runtime": "^7.14.2",
+        "@babel/preset-env": "^7.14.2",
+        "@babel/preset-typescript": "^7.13.0"
+    }
+}

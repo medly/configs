@@ -1,0 +1,73 @@
+{
+    "name": "configs",
+    "version": "0.0.0",
+    "description": "🚀 Basic babel, rollup, semantic-release, eslint, prettier & typescript configs",
+    "private": true,
+    "workspaces": [
+        "packages/*"
+    ],
+    "keywords": [
+        "Medly",
+        "babel",
+        "eslint",
+        "rollup",
+        "semantic-release",
+        "prettier",
+        "tsconfig",
+        "configs"
+    ],
+    "author": "Mukul Bansal",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/medly/configs/issues"
+    },
+    "homepage": "https://github.com/medly/configs#readme",
+    "scripts": {
+        "postinstall": "yarn link:packages && yarn init:commitizen",
+        "init:commitizen": "commitizen init cz-lerna-changelog --yarn --dev --exact --force",
+        "clean": "rimraf node_modules && lerna clean",
+        "lint": "eslint 'packages/**/src/**/*.{js, ts}'",
+        "commit": "git-cz",
+        "link:packages": "lerna link && lerna exec -- yarn link",
+        "release": "cross-env HUSKY_BYPASS=true lerna publish"
+    },
+    "config": {
+        "commitizen": {
+            "path": "./node_modules/cz-lerna-changelog"
+        }
+    },
+    "commitlint": {
+        "extends": [
+            "@commitlint/config-lerna-scopes"
+        ]
+    },
+    "husky": {
+        "hooks": {
+            "prepare-commit-msg": "[[ -n $HUSKY_BYPASS ]] || exec < /dev/tty && git cz --hook || true",
+            "commit-msg": "[[ -n $HUSKY_BYPASS ]] || commitlint -E HUSKY_GIT_PARAMS"
+        }
+    },
+    "prettier": "@medly/prettier-config",
+    "eslintConfig": {
+        "extends": "@medly",
+        "rules": {
+            "no-var-requires": false
+        }
+    },
+    "repository": {
+        "type": "git",
+        "url": "git://github.com/medly/medly-configs.git"
+    },
+    "devDependencies": {
+        "@commitlint/cli": "^8.3.5",
+        "@commitlint/config-lerna-scopes": "^8.3.4",
+        "@medly/eslint-config": "^0.0.0",
+        "@medly/prettier-config": "^0.0.0",
+        "@medly/typescript-config": "^0.0.0",
+        "commitizen": "4.0.3",
+        "cz-lerna-changelog": "^2.0.2",
+        "husky": "^4.2.3",
+        "lerna": "^3.20.2",
+        "rimraf": "^3.0.1"
+    }
+}

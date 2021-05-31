@@ -1,0 +1,5 @@
+{
+    "extends": "@medly/typescript-config",
+    "include": ["packages", "types"],
+    "exclude": ["node_modules", "packages/**/dist", ".storybook"]
+}

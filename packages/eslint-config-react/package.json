@@ -1,0 +1,26 @@
+{
+    "name": "@medly/eslint-config-react",
+    "version": "0.0.0",
+    "sideEffects": false,
+    "main": "index.json",
+    "publishConfig": {
+        "access": "public"
+    },
+    "files": [
+        "index.json",
+        "react.json"
+    ],
+    "license": "MIT",
+    "keywords": [
+        "Medly",
+        "eslint",
+        "react",
+        "config",
+        "eslint-config"
+    ],
+    "dependencies": {
+        "@medly/eslint-config": "0.0.0",
+        "eslint-plugin-react": "^7.23.2",
+        "eslint-plugin-react-hooks": "^4.2.0"
+    }
+}
