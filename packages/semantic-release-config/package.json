@@ -1,7 +1,7 @@
 {
     "name": "@medly/semantic-release-config",
     "description": "Basic semantic release configuration",
-    "version": "0.0.0",
+    "version": "0.1.0",
     "sideEffects": false,
     "main": "index.json",
     "publishConfig": {
@@ -16,7 +16,6 @@
         "prettier": "^2.3.0",
         "semantic-release": "^17.4.3"
     },
-    "devDependencies": {},
     "keywords": [
         "Medly",
         "prettier",

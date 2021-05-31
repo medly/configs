@@ -1,7 +1,7 @@
 {
     "name": "@medly/typescript-config",
     "description": "Basic typescript config",
-    "version": "0.0.0",
+    "version": "0.1.0",
     "sideEffects": false,
     "main": "tsconfig.json",
     "publishConfig": {
