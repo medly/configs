@@ -12,14 +12,7 @@ jobs:
         runs-on: ubuntu-latest
         steps:
             - name: Checkout repo
-              uses: actions/checkout@v2
-              with:
-                  fetch-depth: 0
-                  token: ${{ secrets.ADMIN_TOKEN }}
-
-            #needed for lerna / semantic release to correctly version
-            - name: Pulls all tags & commits
-              run: git fetch --depth=1000 origin +refs/tags/*:refs/tags/*
+              run: git fetch --prune --unshallow --tags
 
             - name: Configure CI Git User
               run: |
