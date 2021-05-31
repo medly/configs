@@ -1,4 +1,4 @@
-# Medly typescript config
+# Medly rollup config
 
 > Shared [rollup config](https://rollupjs.org/guide/en/#introduction)
 

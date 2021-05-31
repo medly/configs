@@ -1,6 +1,6 @@
 # Medly typescript config
 
-> Shared [TypeScript config](https://www.typescriptlang.org/docs/handbook/tsconfig-json.html)
+> Shared [typeScript config](https://www.typescriptlang.org/docs/handbook/tsconfig-json.html)
 
 ## Install
 
