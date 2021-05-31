@@ -1,0 +1,20 @@
+{
+    "name": "@medly/typescript-config",
+    "description": "Basic typescript config",
+    "version": "0.0.0",
+    "sideEffects": false,
+    "main": "tsconfig.json",
+    "publishConfig": {
+        "access": "public"
+    },
+    "license": "MIT",
+    "dependencies": {
+        "typescript": "^4.2.4"
+    },
+    "keywords": [
+        "Medly",
+        "typescript",
+        "tsconfig"
+    ],
+    "author": "Mukul Bansal"
+}

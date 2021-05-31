@@ -1,0 +1,26 @@
+{
+    "name": "@medly/semantic-release-config",
+    "description": "Basic semantic release configuration",
+    "version": "0.0.0",
+    "sideEffects": false,
+    "main": "index.json",
+    "publishConfig": {
+        "access": "public"
+    },
+    "license": "MIT",
+    "dependencies": {
+        "@semantic-release/changelog": "^5.0.1",
+        "@semantic-release/git": "^9.0.0",
+        "@semantic-release/github": "^7.2.3",
+        "prettier": "^2.3.0",
+        "semantic-release": "^17.4.3"
+    },
+    "devDependencies": {},
+    "keywords": [
+        "Medly",
+        "prettier",
+        "semantic-release",
+        "configuration"
+    ],
+    "author": "Mukul Bansal"
+}

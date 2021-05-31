@@ -1,0 +1,19 @@
+{
+    "compilerOptions": {
+        "allowJs": true,
+        "esModuleInterop": true,
+        "forceConsistentCasingInFileNames": true,
+        "isolatedModules": true,
+        "jsx": "react",
+        "lib": ["es2017", "es2015", "dom", "es2018.promise"],
+        "module": "esnext",
+        "moduleResolution": "node",
+        "noEmit": true,
+        "resolveJsonModule": true,
+        "skipLibCheck": true,
+        "strict": true,
+        "strictFunctionTypes": false,
+        "strictNullChecks": false,
+        "target": "esnext"
+    }
+}

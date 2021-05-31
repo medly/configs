@@ -1,0 +1,30 @@
+{
+    "root": true,
+    "env": {
+        "es6": true,
+        "browser": true,
+        "jest/globals": true
+    },
+    "settings": {
+        "react": {
+            "version": "detect"
+        }
+    },
+    "parserOptions": {
+        "ecmaVersion": 11,
+        "jsx": true
+    },
+    "plugins": ["@typescript-eslint", "jest", "react-hooks", "prettier"],
+    "extends": ["@medly", "plugin:react/recommended"],
+    "rules": {
+        "react-hooks/exhaustive-deps": "off",
+        "react-hooks/rules-of-hooks": "error",
+        "react/prop-types": "off",
+        "react/jsx-no-bind": [
+            "error",
+            {
+                "allowArrowFunctions": true
+            }
+        ]
+    }
+}
