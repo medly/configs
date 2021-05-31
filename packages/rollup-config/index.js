@@ -9,7 +9,6 @@ const PACKAGE_ROOT_PATH = process.cwd(),
     SRC = path.join(PACKAGE_ROOT_PATH, 'src'),
     INPUT = path.join(PACKAGE_ROOT_PATH, 'src/index.ts'),
     TS_CONFIG = path.join(PACKAGE_ROOT_PATH, './tsconfig.json'),
-    // eslint-disable-next-line @typescript-eslint/no-var-requires
     PKG_JSON = require(path.join(PACKAGE_ROOT_PATH, 'package.json'));
 
 const extensions = ['.ts', '.tsx', '.js'];
