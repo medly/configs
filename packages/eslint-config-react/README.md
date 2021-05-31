@@ -1,6 +1,6 @@
 # Medly eslint config for react app
 
-> Shared [prettier config](https://eslint.org/docs/user-guide/getting-started)
+> Shared [eslint config](https://eslint.org/docs/user-guide/getting-started)
 
 ## Install
 

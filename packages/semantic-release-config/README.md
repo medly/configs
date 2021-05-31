@@ -1,4 +1,4 @@
-# Medly prettier config
+# Medly semantic release config
 
 > Shared [semantic release config](https://semantic-release.gitbook.io/semantic-release/usage/configuration)
 
