@@ -5,7 +5,8 @@
     "sideEffects": false,
     "main": "index.json",
     "publishConfig": {
-        "access": "public"
+        "access": "public",
+        "registry": "https://registry.npmjs.org/medly"
     },
     "license": "MIT",
     "dependencies": {
