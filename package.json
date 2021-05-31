@@ -26,7 +26,7 @@
         "postinstall": "yarn link:packages && yarn init:commitizen",
         "init:commitizen": "commitizen init cz-lerna-changelog --yarn --dev --exact --force",
         "clean": "rimraf node_modules && lerna clean",
-        "lint": "eslint 'packages/**/src/**/*.{js, ts}'",
+        "lint": "eslint 'packages/**/*.{js, ts}'",
         "commit": "git-cz",
         "link:packages": "lerna link && lerna exec -- yarn link",
         "release": "cross-env HUSKY_BYPASS=true lerna publish"
@@ -49,10 +49,7 @@
     },
     "prettier": "@medly/prettier-config",
     "eslintConfig": {
-        "extends": "@medly",
-        "rules": {
-            "no-var-requires": false
-        }
+        "extends": "@medly"
     },
     "repository": {
         "type": "git",
