@@ -11,12 +11,11 @@ module.exports = function (api) {
                 }
             ],
             'inline-react-svg'
-        ],
+        ];
 
     if (api.env() === 'development') {
         plugins.push('react-hot-loader/babel');
     }
-
 
     return { presets, plugins, extends: '@medly/babel-config' };
 };
