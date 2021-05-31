@@ -14,6 +14,8 @@ Add below line in your `package.json`
 
 ```json
 {
- "extends": "@medly"
+ "eslintConfig": {
+  "extends": "@medly"
+ }
 }
 ```

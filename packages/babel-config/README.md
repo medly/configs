@@ -14,6 +14,8 @@ Add below code in your `package.json`
 
 ```json
 {
- "extends": "@medly/typescript-config"
+ "babel": {
+  "extends": "@medly/babel-config"
+ }
 }
 ```
