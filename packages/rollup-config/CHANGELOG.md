@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.1.3](https://github.com/medly/configs/compare/@medly/rollup-config@0.1.2...@medly/rollup-config@0.1.3) (2021-06-01)
+
+
+### Bug Fixes
+
+* module type issue in rollup config ([7bc9fd8](https://github.com/medly/configs/commit/7bc9fd8a9d976853b8e4ef5a031432490701de19))
+
+
+
+
+
 ## [0.1.2](https://github.com/medly/configs/compare/@medly/rollup-config@0.1.1...@medly/rollup-config@0.1.2) (2021-06-01)
 
 
