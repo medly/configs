@@ -10,21 +10,16 @@
 
     "parser": "@typescript-eslint/parser",
     "plugins": ["@typescript-eslint", "jest", "prettier"],
-    "extends": [
-        "eslint:recommended",
-        "plugin:@typescript-eslint/eslint-recommended",
-        "plugin:@typescript-eslint/recommended",
-        "plugin:prettier/recommended"
-    ],
+    "extends": ["eslint:recommended", "plugin:@typescript-eslint/recommended", "plugin:prettier/recommended", "plugin:jest/recommended"],
     "rules": {
         "@typescript-eslint/ban-ts-ignore": "off",
         "@typescript-eslint/explicit-function-return-type": "off",
         "@typescript-eslint/no-explicit-any": "off",
+        "@typescript-eslint/no-var-requires": 0,
         "arrow-parens": ["error", "as-needed"],
         "no-param-reassign": "error",
         "no-undef": "error",
         "no-var": "error",
-        "prefer-const": "error",
-        "@typescript-eslint/no-var-requires": 0
+        "prefer-const": "error"
     }
 }
