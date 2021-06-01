@@ -37,7 +37,7 @@ module.exports = ['es', 'cjs'].map(format => ({
             outDir: `dist/${format}`,
             exclude: ['**/*.test.ts'],
             include: ['src/**/*', 'module.d.ts'],
-            module: format === 'es' ? 'esnext' : 'CommonJS'
+            module: 'esnext'
         }),
         terser()
     ],
