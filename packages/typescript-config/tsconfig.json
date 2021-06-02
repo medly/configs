@@ -15,6 +15,6 @@
         "strictFunctionTypes": false,
         "strictNullChecks": false,
         "target": "esnext",
-        "types": ["jest"]
+        "types": ["jest", "node"]
     }
 }
