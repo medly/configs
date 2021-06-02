@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.2.0](https://github.com/medly/configs/compare/@medly/eslint-config@0.1.2...@medly/eslint-config@0.2.0) (2021-06-02)
+
+
+### Features
+
+* add node as default type in ts config and ban-ts-comment in eslint config ([fd3bf0b](https://github.com/medly/configs/commit/fd3bf0b9dbc71e4bc9bbe7e1e4cdff13e3371bb3))
+
+
+
+
+
 ## [0.1.2](https://github.com/medly/configs/compare/@medly/eslint-config@0.1.1...@medly/eslint-config@0.1.2) (2021-06-01)
 
 **Note:** Version bump only for package @medly/eslint-config
