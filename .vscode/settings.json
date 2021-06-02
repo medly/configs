@@ -9,7 +9,6 @@
     "eslint.validate": ["html", "javascript", "javascriptreact", "typescript", "typescriptreact"],
     "cSpell.words": ["Medly", "eslintconfig"],
     "files.exclude": {
-        ".yarnrc": true,
         "node_modules/": true,
         "packages/**/dist/": true,
         "packages/**/node_modules/": true,

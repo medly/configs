@@ -25,7 +25,7 @@
     "scripts": {
         "postinstall": "yarn link:packages && yarn init:commitizen",
         "init:commitizen": "commitizen init cz-lerna-changelog --yarn --dev --exact --force",
-        "clean": "rimraf node_modules && lerna clean",
+        "clean": "lerna clean && rimraf node_modules",
         "lint": "eslint 'packages/**/*.{js, ts}'",
         "commit": "git-cz",
         "link:packages": "lerna link && lerna exec -- yarn link",
