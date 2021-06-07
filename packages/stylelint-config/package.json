@@ -1,0 +1,25 @@
+{
+    "name": "@medly/stylelint-config",
+    "description": "Basic stylelint config",
+    "version": "0.0.0",
+    "sideEffects": false,
+    "main": "index.json",
+    "publishConfig": {
+        "access": "public",
+        "registry": "https://registry.npmjs.org/medly"
+    },
+    "license": "MIT",
+    "dependencies": {
+        "stylelint": "^13.13.1",
+        "stylelint-config-standard": "^22.0.0",
+        "stylelint-config-styled-components": "^0.1.1",
+        "stylelint-prettier": "^1.2.0"
+    },
+    "keywords": [
+        "Medly",
+        "stylelint",
+        "config",
+        "stylelint-config"
+    ],
+    "author": "Mukul Bansal"
+}
