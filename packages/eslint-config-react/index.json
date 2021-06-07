@@ -14,10 +14,11 @@
         "ecmaVersion": 11,
         "jsx": true
     },
+    "parser": "@typescript-eslint/parser",
     "plugins": ["react", "react-hooks"],
     "extends": ["@medly", "plugin:react/recommended", "plugin:react-hooks/recommended"],
     "rules": {
-        "react-hooks/exhaustive-deps": "off",
+        "react-hooks/exhaustive-deps": "warn",
         "react-hooks/rules-of-hooks": "error",
         "react/prop-types": "off",
         "react/jsx-no-bind": [

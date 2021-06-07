@@ -15,6 +15,7 @@ Add below line in your `package.json`
 ```json
 {
  "eslintConfig": {
+  "parser": "@typescript-eslint/parser",
   "extends": "@medly/react"
  }
 }
