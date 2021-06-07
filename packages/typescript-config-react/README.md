@@ -1,11 +1,11 @@
-# Medly typescript config
+# Medly typescript config for react apps
 
 > Shared [typeScript config](https://www.typescriptlang.org/docs/handbook/tsconfig-json.html)
 
 ## Install
 
 ```shell
-yarn add -D @medly/typescript-config
+yarn add -D @medly/typescript-config-react
 ```
 
 ## Usage

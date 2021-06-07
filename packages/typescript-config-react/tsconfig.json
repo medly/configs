@@ -1,0 +1,6 @@
+{
+    "extends": "@medly/typescript-config",
+    "compilerOptions": {
+        "types": ["jest", "node", "testing-library__jest-dom"]
+    }
+}

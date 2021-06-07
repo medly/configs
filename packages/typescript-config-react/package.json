@@ -1,0 +1,23 @@
+{
+    "name": "@medly/typescript-config-react",
+    "description": "Basic typescript config for react app",
+    "version": "0.0.0",
+    "sideEffects": false,
+    "main": "tsconfig.json",
+    "publishConfig": {
+        "access": "public",
+        "registry": "https://registry.npmjs.org/medly"
+    },
+    "license": "MIT",
+    "dependencies": {
+        "@medly/typescript-config": "0.2.0",
+        "@testing-library/jest-dom": "^5.13.0"
+    },
+    "keywords": [
+        "Medly",
+        "typescript",
+        "react",
+        "tsconfig"
+    ],
+    "author": "Mukul Bansal"
+}

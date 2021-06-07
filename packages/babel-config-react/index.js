@@ -10,6 +10,7 @@ module.exports = function (api) {
                     transpileTemplateLiterals: true
                 }
             ],
+            '@babel/plugin-transform-runtime',
             'inline-react-svg'
         ];
 
