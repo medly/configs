@@ -9,7 +9,8 @@
         "registry": "https://registry.npmjs.org/medly"
     },
     "files": [
-        "index.js"
+        "index.js",
+        "configs"
     ],
     "license": "MIT",
     "keywords": [
