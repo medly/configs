@@ -6,14 +6,14 @@ const path = require('path');
 const { terser } = require('rollup-plugin-terser');
 
 const PACKAGE_ROOT_PATH = process.cwd(),
-    SRC = path.join(PACKAGE_ROOT_PATH, 'src'),
-    INPUT = path.join(PACKAGE_ROOT_PATH, 'src/index.ts'),
+    SRC = path.join(PACKAGE_ROOT_PATH, './src'),
+    INPUT = path.join(PACKAGE_ROOT_PATH, './src/index.ts'),
     TS_CONFIG = path.join(PACKAGE_ROOT_PATH, './tsconfig.json'),
-    PKG_JSON = require(path.join(PACKAGE_ROOT_PATH, 'package.json'));
+    PKG_JSON = require(path.join(PACKAGE_ROOT_PATH, './package.json'));
 
 const extensions = ['.ts', '.tsx', '.js'];
 
-module.exports = ['es', 'cjs'].map(format => ({
+const configs = ['es', 'cjs'].map(format => ({
     input: INPUT,
     preserveModules: true,
     external: [...Object.keys(PKG_JSON.peerDependencies || {}), ...Object.keys(PKG_JSON.dependencies || {})],
@@ -47,3 +47,8 @@ module.exports = ['es', 'cjs'].map(format => ({
         dir: `dist/${format}`
     }
 }));
+
+const configure = (config = {}) => configs.map(cf => ({ ...cf, ...config }));
+
+module.exports = configs;
+module.exports.configure = configure;
