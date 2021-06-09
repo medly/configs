@@ -17,8 +17,8 @@ Add below code in your `package.json`
 ```json
 {
  "script": {
-  "watch": "webpack serve --env development --config node_modules/@medly/webpack-config",
-  "dist": "webpack --env production --config node_modules/@medly/webpack-config",
+  "watch": "webpack serve --mode development --config node_modules/@medly/webpack-config",
+  "dist": "webpack --mode production --config node_modules/@medly/webpack-config",
   "dist:analyze": "npm run dist -- --analyze"
  }
 }
@@ -43,7 +43,7 @@ Add below code in your `package.json`
 ```json
 {
  "script": {
-  "watch": "webpack serve --env development --config webpack.dev.js"
+  "watch": "webpack serve --mode development --config webpack.dev.js"
  }
 }
 ```
