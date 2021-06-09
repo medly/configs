@@ -11,10 +11,11 @@ module.exports = function (api) {
         plugins = [],
         ignore = ['node_modules'];
 
-    if (api.env('production') || api.env('development'))
+    if (api.env('test')) {
+        plugins.push('@babel/plugin-transform-runtime');
+    } else {
         ignore.push('**/*.test.ts', '**/*.test.tsx', '**/*.test.js', '**/*.test.jsx', '__snapshots__');
-
-    if (api.env('test')) plugins.push('@babel/plugin-transform-runtime');
+    }
 
     return { presets, plugins, ignore };
 };
