@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.1.5](https://github.com/medly/configs/compare/@medly/webpack-config@0.1.4...@medly/webpack-config@0.1.5) (2021-06-10)
+
+
+### Bug Fixes
+
+* remove deprecated option from webpack-dev-server ([91996ef](https://github.com/medly/configs/commit/91996ef8b005b2c56bb3e93c57c8884bca40f1f0))
+
+
+
+
+
 ## [0.1.4](https://github.com/medly/configs/compare/@medly/webpack-config@0.1.3...@medly/webpack-config@0.1.4) (2021-06-10)
 
 
