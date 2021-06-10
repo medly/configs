@@ -15,11 +15,7 @@ module.exports = merge(common, {
     },
     devServer: {
         hot: true,
-        inline: true,
-        overlay: true,
-        historyApiFallback: true,
-        disableHostCheck: true,
-        stats: { children: false }
+        historyApiFallback: true
     },
     devtool: 'eval-cheap-module-source-map'
 });
