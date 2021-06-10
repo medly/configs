@@ -1,7 +1,7 @@
 {
     "name": "configs",
     "version": "0.0.0",
-    "description": "🚀 Basic babel, rollup, semantic-release, eslint, prettier & typescript configs",
+    "description": "🚀 Basic babel, rollup, webpack, semantic-release, jest, stylelint, eslint, prettier & typescript configs",
     "private": true,
     "workspaces": [
         "packages/*"
