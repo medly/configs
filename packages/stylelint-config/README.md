@@ -1,5 +1,13 @@
 # Medly stylelint config
 
+## What is stylelint?
+
+A mighty, modern linter that helps you avoid errors and enforce conventions in your styles.
+
+## About
+
+*stylelint* rules recommended by Medly to provide more linting (style) powers to your react based web applications. 
+
 > Shared [stylelint config](https://stylelint.io/user-guide/configure/)
 
 ## Install
