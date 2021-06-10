@@ -1,6 +1,16 @@
 # Medly typescript config
 
+# What is tsconfig.json ?
+
+The tsconfig.json file specifies the root files and the compiler options required to compile the project.
+
+## About
+
+Medly recommended rules to better compile your TypeScript project.
+
 > Shared [typeScript config](https://www.typescriptlang.org/docs/handbook/tsconfig-json.html)
+
+> [Schema](http://json.schemastore.org/tsconfig)
 
 ## Install
 
