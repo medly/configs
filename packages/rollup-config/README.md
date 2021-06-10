@@ -1,6 +1,14 @@
 # Medly rollup config
 
-> Shared [rollup config](https://rollupjs.org/guide/en/#introduction)
+## What is rollup.js?
+
+Rollup is a module bundler for JavaScript which compiles small pieces of code into something larger and more complex, such as a library or application.
+
+## About
+
+Rollup configuration recommended by Medly to give next-generation bundling powers to your react web applications.
+
+> Shared [rollup config](https://rollupjs.org/guide/en/#configuration-files)
 
 ## Install
 
