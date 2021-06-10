@@ -1,5 +1,13 @@
 # Medly webpack config
 
+## What is webpack?
+
+At its core, *webpack* is a static module bundler for modern JavaScript applications. When webpack processes your application, it internally builds a dependency graph which maps every module your project needs and generates one or more bundles.
+
+## About
+
+webpack configuration recommended by Medly to bundle the assets in your projects.
+
 > Shared [webpack config](https://webpack.js.org/configuration/)
 
 ## Install

@@ -1,5 +1,7 @@
 # Medly babel config for react app
 
+Babel configuration recommended by Medly for react based web applications
+
 > Shared [Babel config](https://babeljs.io/docs/en/configuration)
 
 ## Install

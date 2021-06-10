@@ -1,5 +1,13 @@
 # Medly prettier config
 
+## What is Prettier?
+
+Prettier is an opinionated code formatter with support for all the leading web technologies and frameworks. It improves code readability by enforcing a consistent code style across your entire codebase.
+
+## About
+
+Prettier rules recommended by Medly to automatically format and clean your react codebase ending your styling nightmares.
+
 > Shared [prettier config](https://prettier.io/docs/en/configuration.html)
 
 ## Install

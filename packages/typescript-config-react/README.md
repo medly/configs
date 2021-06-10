@@ -1,5 +1,7 @@
 # Medly typescript config for react apps
 
+Medly recommended rules to better compile your TypeScript based react project.
+
 > Shared [typeScript config](https://www.typescriptlang.org/docs/handbook/tsconfig-json.html)
 
 ## Install
