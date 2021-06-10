@@ -4,7 +4,13 @@
 [![GitHub](https://img.shields.io/github/license/medly/medly-components)](https://github.com/medly/medly-components/blob/master/LICENSE)
 [![lerna](https://img.shields.io/badge/maintained%20with-lerna-cc00ff.svg)](https://lerna.js.org/)
 
-🚀 Basic babel, rollup, semantic-release, eslint, prettier & typescript configs
+## Why Medly configs?
+
+The main agenda for introducing Medly configs in your projects is to:
+ - share common configurations across different projects
+ - minimize the amount of config files
+
+It provides Basic babel, rollup, webpack, semantic-release, jest, stylelint, eslint, prettier & typescript configs
 
 ## Packages
 
