@@ -1,7 +1,7 @@
 {
     "name": "@medly/eslint-config-react",
     "description": "Basic eslint config for react app",
-    "version": "0.1.5",
+    "version": "0.1.6",
     "sideEffects": false,
     "main": "index.json",
     "publishConfig": {

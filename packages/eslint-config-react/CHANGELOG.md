@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.1.6](https://github.com/medly/configs/compare/@medly/eslint-config-react@0.1.5...@medly/eslint-config-react@0.1.6) (2021-06-10)
+
+
+### Bug Fixes
+
+* suppress explicit-module-boundary-types rule ([#35](https://github.com/medly/configs/issues/35)) ([d689400](https://github.com/medly/configs/commit/d689400d09520caf5c3913046ded3c2dc4cd0dc8))
+
+
+
+
+
 ## [0.1.5](https://github.com/medly/configs/compare/@medly/eslint-config-react@0.1.4...@medly/eslint-config-react@0.1.5) (2021-06-10)
 
 
