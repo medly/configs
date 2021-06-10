@@ -1,4 +1,12 @@
-# Medly jets config for react apps
+# Medly jest config for react apps
+
+## What is Jest?
+
+Jest is a delightful JavaScript Testing Framework with a focus on simplicity.
+
+## About
+
+Jest rules recommended by Medly to provide more configuration power to your react based web applications.
 
 > Shared [jest config](https://jestjs.io/docs/configuration)
 
