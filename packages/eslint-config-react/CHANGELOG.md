@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.1.5](https://github.com/medly/configs/compare/@medly/eslint-config-react@0.1.4...@medly/eslint-config-react@0.1.5) (2021-06-10)
+
+
+### Bug Fixes
+
+* dependency warning ([29dc941](https://github.com/medly/configs/commit/29dc9416844032c6d3680fdbecaa3054af4f31f5))
+
+
+
+
+
 ## [0.1.4](https://github.com/medly/configs/compare/@medly/eslint-config-react@0.1.3...@medly/eslint-config-react@0.1.4) (2021-06-07)
 
 

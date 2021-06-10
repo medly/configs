@@ -1,7 +1,7 @@
 {
     "name": "@medly/semantic-release-config",
     "description": "Basic semantic release config",
-    "version": "0.1.1",
+    "version": "0.1.2",
     "sideEffects": false,
     "main": "index.json",
     "publishConfig": {
@@ -10,10 +10,10 @@
     },
     "license": "MIT",
     "dependencies": {
-        "prettier": "^2.3.1",
         "@semantic-release/changelog": "^5.0.1",
         "@semantic-release/git": "^9.0.0",
         "@semantic-release/github": "^7.2.3",
+        "prettier": "^2.3.1",
         "semantic-release": "^17.4.3"
     },
     "keywords": [

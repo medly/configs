@@ -1,7 +1,7 @@
 {
     "name": "@medly/eslint-config",
     "description": "Basic eslint config",
-    "version": "0.2.1",
+    "version": "0.2.2",
     "sideEffects": false,
     "main": "index.json",
     "publishConfig": {
@@ -20,8 +20,6 @@
         "eslint-config"
     ],
     "dependencies": {
-        "prettier": "^2.3.1",
-        "typescript": "^4.3.2",
         "@typescript-eslint/eslint-plugin": "^4.23.0",
         "@typescript-eslint/parser": "^4.23.0",
         "eslint": "^7.28.0",
@@ -29,6 +27,8 @@
         "eslint-plugin-jest": "^24.3.6",
         "eslint-plugin-prettier": "^3.4.0",
         "eslint-plugin-react": "^7.23.2",
-        "eslint-plugin-react-hooks": "^4.2.0"
+        "eslint-plugin-react-hooks": "^4.2.0",
+        "prettier": "^2.3.1",
+        "typescript": "^4.3.2"
     }
 }
