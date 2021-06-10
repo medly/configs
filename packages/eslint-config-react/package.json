@@ -21,6 +21,7 @@
         "eslint-config"
     ],
     "dependencies": {
+        "eslint": "^7.28.0",
         "@medly/eslint-config": "0.2.1",
         "eslint-plugin-react": "^7.23.2",
         "eslint-plugin-react-hooks": "^4.2.0"
