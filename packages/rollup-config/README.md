@@ -1,4 +1,4 @@
-# Medly rollup config
+# Rollup Config <img style="vertical-align: middle; height: 30px" src="https://rollupjs.org/logo.svg" />
 
 ## What is rollup.js?
 

@@ -1,12 +1,12 @@
-# Medly semantic release config
+# Semantic Release Config <img style="vertical-align: middle; height: 30px" src="https://gblobscdn.gitbook.com/spaces%2F-LGsE7zdvzHI5cG-XV6p%2Favatar.png?alt=media">
 
 ## What is semantic-release?
 
-*semantic-release* is a fully automated version management and package publishing library that automates the whole package release workflow including: determining the next version number, generating the release notes and publishing the package.
+**semantic-release** is a fully automated version management and package publishing library that automates the whole package release workflow including: determining the next version number, generating the release notes and publishing the package.
 
 ## About
 
-*semantic-release* configuration recommended by Medly to automate your react application's release workflow.
+**semantic-release** configuration recommended by Medly to automate your react application's release workflow.
 
 > Shared [semantic release config](https://semantic-release.gitbook.io/semantic-release/usage/configuration)
 

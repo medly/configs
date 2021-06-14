@@ -1,4 +1,4 @@
-# Medly typescript config for react apps
+# Typescript Config for React Apps <img style="vertical-align: middle; height: 30px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/typescript/typescript.png"> <img style="vertical-align: middle; height: 30px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/react/react.png">
 
 Medly recommended rules to better compile your TypeScript based react project.
 

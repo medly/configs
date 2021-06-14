@@ -1,4 +1,4 @@
-# Medly prettier config
+# Prettier Config <img style="vertical-align: middle; height: 25px" src="https://brandslogos.com/wp-content/uploads/images/large/prettier-logo-vector.svg">
 
 ## What is Prettier?
 
