@@ -1,4 +1,4 @@
-# Babel Config <img style="vertical-align: middle; height: 30px" src="https://raw.githubusercontent.com/babel/logo/master/babel.png">
+# Babel Config <img style="vertical-align: middle" height="30" src="https://raw.githubusercontent.com/babel/logo/master/babel.png">
 
 ## What is Babel ?
 
