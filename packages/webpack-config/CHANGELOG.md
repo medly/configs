@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.1.6](https://github.com/medly/configs/compare/@medly/webpack-config@0.1.5...@medly/webpack-config@0.1.6) (2021-06-14)
+
+
+### Bug Fixes
+
+* copy whole public folder instead of static folder in it ([#36](https://github.com/medly/configs/issues/36)) ([0b54e85](https://github.com/medly/configs/commit/0b54e85c2a17532b48c65bfafb6911176d4e119e))
+
+
+
+
+
 ## [0.1.5](https://github.com/medly/configs/compare/@medly/webpack-config@0.1.4...@medly/webpack-config@0.1.5) (2021-06-10)
 
 
