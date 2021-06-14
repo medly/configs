@@ -4,39 +4,35 @@
 [![GitHub](https://img.shields.io/github/license/medly/medly-components)](https://github.com/medly/medly-components/blob/master/LICENSE)
 [![lerna](https://img.shields.io/badge/maintained%20with-lerna-cc00ff.svg)](https://lerna.js.org/)
 
-## Why Medly configs?
-
-The main agenda for introducing Medly configs in your projects is to:
+## Goal
 
 - 🧩 share common configurations across different projects
-- 🔥 minimize the amount of config files
-
-It provides basic babel, rollup, webpack, semantic-release, jest, stylelint, eslint, prettier & typescript configs.
+- 🔥 minimize the amount of config files in project
 
 ## Packages
 
 Library consists of below packages:
 
-### [Babel config for react app](https://github.com/medly/configs/tree/master/packages/babel-config-react)
+### [Babel Config](https://github.com/medly/configs/tree/master/packages/babel-config) <img style="vertical-align: middle; height: 20px" src="https://raw.githubusercontent.com/babel/logo/master/babel.png">
 
-### [Babel config](https://github.com/medly/configs/tree/master/packages/babel-config)
+### [Babel Config for React App](https://github.com/medly/configs/tree/master/packages/babel-config-react) <img style="vertical-align: middle; height: 20px" src="https://raw.githubusercontent.com/babel/logo/master/babel.png"> <img style="vertical-align: middle; height: 25px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/react/react.png">
 
-### [Eslint config](https://github.com/medly/configs/tree/master/packages/eslint-config)
+### [Eslint Config](https://github.com/medly/configs/tree/master/packages/eslint-config) <img style="vertical-align: middle; height: 25px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/eslint/eslint.png">
 
-### [Eslint config for react app](https://github.com/medly/configs/tree/master/packages/eslint-config-react)
+### [Eslint Config for React App](https://github.com/medly/configs/tree/master/packages/eslint-config-react) <img style="vertical-align: middle; height: 20px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/eslint/eslint.png"> <img style="vertical-align: middle; height: 25px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/react/react.png">
 
-### [Jest config for react app](https://github.com/medly/configs/tree/master/packages/jest-config-react)
+### [Jest Config for React App](https://github.com/medly/configs/tree/master/packages/jest-config-react) <img style="vertical-align: middle; height: 20px" src="https://cdn.freebiesupply.com/logos/large/2x/jest-logo-png-transparent.png"> <img style="vertical-align: middle; height: 25px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/react/react.png">
 
-### [Prettier config](https://github.com/medly/configs/tree/master/packages/prettier-config)
+### [Prettier Config](https://github.com/medly/configs/tree/master/packages/prettier-config) <img style="vertical-align: middle; height: 21px" src="https://brandslogos.com/wp-content/uploads/images/large/prettier-logo-vector.svg">
 
-### [Rollup config](https://github.com/medly/configs/tree/master/packages/rollup-config)
+### [Rollup Config](https://github.com/medly/configs/tree/master/packages/rollup-config) <img style="vertical-align: middle; height: 25px" src="https://rollupjs.org/logo.svg" />
 
-### [Semantic release config](https://github.com/medly/configs/tree/master/packages/semantic-release-config)
+### [Semantic Release Config](https://github.com/medly/configs/tree/master/packages/semantic-release-config) <img style="vertical-align: middle; height: 25px" src="https://gblobscdn.gitbook.com/spaces%2F-LGsE7zdvzHI5cG-XV6p%2Favatar.png?alt=media">
 
-### [Stylelint config](https://github.com/medly/configs/tree/master/packages/stylelint-config)
+### [Stylelint Config](https://github.com/medly/configs/tree/master/packages/stylelint-config) <img style="vertical-align: middle; height: 20px" src="https://cdn.freebiesupply.com/logos/large/2x/stylelint-logo-png-transparent.png">
 
-### [Typescript config](https://github.com/medly/configs/tree/master/packages/typescript-config)
+### [Typescript Config](https://github.com/medly/configs/tree/master/packages/typescript-config) <img style="vertical-align: middle; height: 20px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/typescript/typescript.png">
 
-### [Typescript config for react apps](https://github.com/medly/configs/tree/master/packages/typescript-config-react)
+### [Typescript Config for React Apps](https://github.com/medly/configs/tree/master/packages/typescript-config-react) <img style="vertical-align: middle; height: 20px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/typescript/typescript.png"> <img style="vertical-align: middle; height: 25px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/react/react.png">
 
-### [Webpack config](https://github.com/medly/configs/tree/master/packages/webpack-config)
+### [Webpack Config](https://github.com/medly/configs/tree/master/packages/webpack-config) <img style="vertical-align: middle; height: 20px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/webpack/webpack.png">
