@@ -71,7 +71,15 @@ module.exports = {
             }
         }),
         new CopyPlugin({
-            patterns: [{ from: PUBLIC, to: DIST }]
+            patterns: [
+                {
+                    from: PUBLIC,
+                    to: DIST,
+                    globOptions: {
+                        ignore: ['**/index.html']
+                    }
+                }
+            ]
         }),
         new ForkTsCheckerWebpackPlugin(),
         new CircularDependencyPlugin({
