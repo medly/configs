@@ -2,7 +2,7 @@
 
 ## What is webpack?
 
-At its core, *webpack* is a static module bundler for modern JavaScript applications. When webpack processes your application, it internally builds a dependency graph which maps every module your project needs and generates one or more bundles.
+At its core, **webpack** is a static module bundler for modern JavaScript applications. When webpack processes your application, it internally builds a dependency graph which maps every module your project needs and generates one or more bundles.
 
 ## About
 
@@ -25,7 +25,7 @@ Add below code in your `package.json`
 ```json
 {
  "script": {
-  "watch": "webpack serve --mode development --config node_modules/@medly/webpack-config",
+  "watch": "webpack serve --open --mode development --config node_modules/@medly/webpack-config",
   "dist": "webpack --mode production --config node_modules/@medly/webpack-config",
   "dist:analyze": "npm run dist -- --analyze"
  }

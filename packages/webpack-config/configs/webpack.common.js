@@ -11,7 +11,7 @@ const Dotenv = require('dotenv-webpack');
 const PACKAGE_ROOT_PATH = process.cwd(),
     SRC = path.resolve(PACKAGE_ROOT_PATH, './src'),
     DIST = path.resolve(PACKAGE_ROOT_PATH, './dist'),
-    STATIC = path.resolve(PACKAGE_ROOT_PATH, './public/static'),
+    PUBLIC = path.resolve(PACKAGE_ROOT_PATH, './public'),
     INDEX_HTML = path.resolve(PACKAGE_ROOT_PATH, './public/index.html');
 
 module.exports = {
@@ -71,7 +71,7 @@ module.exports = {
             }
         }),
         new CopyPlugin({
-            patterns: [{ from: STATIC, to: DIST }]
+            patterns: [{ from: PUBLIC, to: DIST }]
         }),
         new ForkTsCheckerWebpackPlugin(),
         new CircularDependencyPlugin({
