@@ -13,26 +13,26 @@
 
 Library consists of below packages:
 
-### [Babel Config](https://github.com/medly/configs/tree/master/packages/babel-config) <img style="vertical-align: middle; height: 20px" src="https://raw.githubusercontent.com/babel/logo/master/babel.png">
+### [Babel Config](https://github.com/medly/configs/tree/master/packages/babel-config) <img style="vertical-align: middle" height="20" src="https://raw.githubusercontent.com/babel/logo/master/babel.png">
 
-### [Babel Config for React App](https://github.com/medly/configs/tree/master/packages/babel-config-react) <img style="vertical-align: middle; height: 20px" src="https://raw.githubusercontent.com/babel/logo/master/babel.png"> <img style="vertical-align: middle; height: 25px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/react/react.png">
+### [Babel Config for React App](https://github.com/medly/configs/tree/master/packages/babel-config-react) <img style="vertical-align: middle" height="20" src="https://raw.githubusercontent.com/babel/logo/master/babel.png"> <img style="vertical-align: middle" height="25" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/react/react.png">
 
-### [Eslint Config](https://github.com/medly/configs/tree/master/packages/eslint-config) <img style="vertical-align: middle; height: 25px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/eslint/eslint.png">
+### [Eslint Config](https://github.com/medly/configs/tree/master/packages/eslint-config) <img style="vertical-align: middle" height="25" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/eslint/eslint.png">
 
-### [Eslint Config for React App](https://github.com/medly/configs/tree/master/packages/eslint-config-react) <img style="vertical-align: middle; height: 20px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/eslint/eslint.png"> <img style="vertical-align: middle; height: 25px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/react/react.png">
+### [Eslint Config for React App](https://github.com/medly/configs/tree/master/packages/eslint-config-react) <img style="vertical-align: middle" height="20" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/eslint/eslint.png"> <img style="vertical-align: middle" height="25" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/react/react.png">
 
-### [Jest Config for React App](https://github.com/medly/configs/tree/master/packages/jest-config-react) <img style="vertical-align: middle; height: 20px" src="https://cdn.freebiesupply.com/logos/large/2x/jest-logo-png-transparent.png"> <img style="vertical-align: middle; height: 25px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/react/react.png">
+### [Jest Config for React App](https://github.com/medly/configs/tree/master/packages/jest-config-react) <img style="vertical-align: middle" height="20" src="https://cdn.freebiesupply.com/logos/large/2x/jest-logo-png-transparent.png"> <img style="vertical-align: middle" height="25" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/react/react.png">
 
-### [Prettier Config](https://github.com/medly/configs/tree/master/packages/prettier-config) <img style="vertical-align: middle; height: 21px" src="https://brandslogos.com/wp-content/uploads/images/large/prettier-logo-vector.svg">
+### [Prettier Config](https://github.com/medly/configs/tree/master/packages/prettier-config) <img style="vertical-align: middle" height="21" src="https://brandslogos.com/wp-content/uploads/images/large/prettier-logo-vector.svg">
 
-### [Rollup Config](https://github.com/medly/configs/tree/master/packages/rollup-config) <img style="vertical-align: middle; height: 25px" src="https://rollupjs.org/logo.svg" />
+### [Rollup Config](https://github.com/medly/configs/tree/master/packages/rollup-config) <img style="vertical-align: middle" height="25" src="https://rollupjs.org/logo.svg" />
 
-### [Semantic Release Config](https://github.com/medly/configs/tree/master/packages/semantic-release-config) <img style="vertical-align: middle; height: 25px" src="https://gblobscdn.gitbook.com/spaces%2F-LGsE7zdvzHI5cG-XV6p%2Favatar.png?alt=media">
+### [Semantic Release Config](https://github.com/medly/configs/tree/master/packages/semantic-release-config) <img style="vertical-align: middle" height="25" src="https://gblobscdn.gitbook.com/spaces%2F-LGsE7zdvzHI5cG-XV6p%2Favatar.png?alt=media">
 
-### [Stylelint Config](https://github.com/medly/configs/tree/master/packages/stylelint-config) <img style="vertical-align: middle; height: 20px" src="https://cdn.freebiesupply.com/logos/large/2x/stylelint-logo-png-transparent.png">
+### [Stylelint Config](https://github.com/medly/configs/tree/master/packages/stylelint-config) <img style="vertical-align: middle" height="20" src="https://cdn.freebiesupply.com/logos/large/2x/stylelint-logo-png-transparent.png">
 
-### [Typescript Config](https://github.com/medly/configs/tree/master/packages/typescript-config) <img style="vertical-align: middle; height: 20px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/typescript/typescript.png">
+### [Typescript Config](https://github.com/medly/configs/tree/master/packages/typescript-config) <img style="vertical-align: middle" height="20" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/typescript/typescript.png">
 
-### [Typescript Config for React Apps](https://github.com/medly/configs/tree/master/packages/typescript-config-react) <img style="vertical-align: middle; height: 20px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/typescript/typescript.png"> <img style="vertical-align: middle; height: 25px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/react/react.png">
+### [Typescript Config for React Apps](https://github.com/medly/configs/tree/master/packages/typescript-config-react) <img style="vertical-align: middle" height="20" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/typescript/typescript.png"> <img style="vertical-align: middle" height="25" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/react/react.png">
 
-### [Webpack Config](https://github.com/medly/configs/tree/master/packages/webpack-config) <img style="vertical-align: middle; height: 20px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/webpack/webpack.png">
+### [Webpack Config](https://github.com/medly/configs/tree/master/packages/webpack-config) <img style="vertical-align: middle" height="25" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/webpack/webpack.png">

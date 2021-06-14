@@ -1,4 +1,4 @@
-# Semantic Release Config <img style="vertical-align: middle; height: 30px" src="https://gblobscdn.gitbook.com/spaces%2F-LGsE7zdvzHI5cG-XV6p%2Favatar.png?alt=media">
+# Semantic Release Config <img style="vertical-align: middle" height="30" src="https://gblobscdn.gitbook.com/spaces%2F-LGsE7zdvzHI5cG-XV6p%2Favatar.png?alt=media">
 
 ## What is semantic-release?
 

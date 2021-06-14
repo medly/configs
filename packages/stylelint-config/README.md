@@ -1,4 +1,4 @@
-# Stylelint Config <img style="vertical-align: middle; height: 30px" src="https://cdn.freebiesupply.com/logos/large/2x/stylelint-logo-png-transparent.png">
+# Stylelint Config <img style="vertical-align: middle" height="30" src="https://cdn.freebiesupply.com/logos/large/2x/stylelint-logo-png-transparent.png">
 
 ## What is stylelint?
 
