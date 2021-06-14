@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.1.7](https://github.com/medly/configs/compare/@medly/webpack-config@0.1.6...@medly/webpack-config@0.1.7) (2021-06-14)
+
+
+### Bug Fixes
+
+* ignore index.html from copyWebpackPlugin ([#37](https://github.com/medly/configs/issues/37)) ([4d7eb0c](https://github.com/medly/configs/commit/4d7eb0cf6898626a970fb9126f7b11812afda120))
+
+
+
+
+
 ## [0.1.6](https://github.com/medly/configs/compare/@medly/webpack-config@0.1.5...@medly/webpack-config@0.1.6) (2021-06-14)
 
 
