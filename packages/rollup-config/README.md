@@ -51,3 +51,5 @@ Add below code in your `package.json`
  }
 }
 ```
+
+> **Note**: Add `tsconfig.json` file at the root level to emit type declaration files.
