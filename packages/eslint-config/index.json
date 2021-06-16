@@ -21,5 +21,13 @@
         "no-undef": "error",
         "no-var": "error",
         "prefer-const": "error"
-    }
+    },
+    "overrides": [
+        {
+            "files": ["*.js", "*.jsx"],
+            "rules": {
+                "@typescript-eslint/explicit-module-boundary-types": "off"
+            }
+        }
+    ]
 }
