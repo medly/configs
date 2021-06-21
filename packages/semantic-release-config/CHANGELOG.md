@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.1.3](https://github.com/medly/configs/compare/@medly/semantic-release-config@0.1.2...@medly/semantic-release-config@0.1.3) (2021-06-21)
+
+**Note:** Version bump only for package @medly/semantic-release-config
+
+
+
+
+
 ## [0.1.2](https://github.com/medly/configs/compare/@medly/semantic-release-config@0.1.1...@medly/semantic-release-config@0.1.2) (2021-06-10)
 
 
