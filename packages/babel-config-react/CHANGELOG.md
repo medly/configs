@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.1.5](https://github.com/medly/configs/compare/@medly/babel-config-react@0.1.4...@medly/babel-config-react@0.1.5) (2021-06-23)
+
+
+### Bug Fixes
+
+* react, react-dom, styled-components peer dependency virsion issue ([#46](https://github.com/medly/configs/issues/46)) ([d59ab56](https://github.com/medly/configs/commit/d59ab563076c1a835046ac9221f96fa4241f0b34))
+
+
+
+
+
 ## [0.1.4](https://github.com/medly/configs/compare/@medly/babel-config-react@0.1.3...@medly/babel-config-react@0.1.4) (2021-06-10)
 
 
