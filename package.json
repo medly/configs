@@ -30,7 +30,7 @@
         "lint": "eslint 'packages/**/*.{js, ts}'",
         "commit": "git-cz",
         "link:packages": "lerna link && lerna exec -- yarn link",
-        "release": "cross-env HUSKY_BYPASS=true lerna publish"
+        "release": "cross-env HUSKY=0 lerna publish"
     },
     "config": {
         "commitizen": {
