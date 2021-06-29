@@ -4,6 +4,7 @@ const { nodeResolve } = require('@rollup/plugin-node-resolve');
 const typescript = require('@rollup/plugin-typescript');
 const path = require('path');
 const fs = require('fs');
+import svgr from '@svgr/rollup';
 const { terser } = require('rollup-plugin-terser');
 
 const PACKAGE_ROOT_PATH = process.cwd(),
@@ -32,7 +33,6 @@ const configs = ['es', 'cjs'].map(format => {
                 extensions,
                 babelHelpers: 'bundled'
             }),
-            terser(),
             ...(isTypescriptProject
                 ? [
                       typescript({
@@ -41,12 +41,14 @@ const configs = ['es', 'cjs'].map(format => {
                           baseUrl: PACKAGE_ROOT_PATH,
                           declaration: true,
                           outDir: `dist/${format}`,
-                          exclude: ['**/*.test.ts'],
+                          exclude: ['**/*.test.tsx', '**/*.test.ts', '**/*.stories.tsx', '**/*.stories.mdx'],
                           include: ['src/**/*', 'module.d.ts'],
                           module: 'esnext'
                       })
                   ]
-                : [])
+                : []),
+            terser(),
+            svgr({ native: true })
         ],
         output: {
             format,

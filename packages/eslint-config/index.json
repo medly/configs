@@ -11,16 +11,18 @@
     "plugins": ["@typescript-eslint", "jest", "prettier"],
     "extends": ["eslint:recommended", "plugin:@typescript-eslint/recommended", "plugin:prettier/recommended", "plugin:jest/recommended"],
     "rules": {
+        "no-var": "error",
+        "no-undef": "error",
+        "prefer-const": "error",
+        "no-param-reassign": "error",
+        "arrow-parens": ["error", "as-needed"],
+        "react/jsx-uses-react": "off",
+        "react/react-in-jsx-scope": "off",
+        "@typescript-eslint/no-var-requires": 0,
         "@typescript-eslint/ban-ts-ignore": "off",
         "@typescript-eslint/ban-ts-comment": "off",
-        "@typescript-eslint/explicit-function-return-type": "off",
         "@typescript-eslint/no-explicit-any": "off",
-        "@typescript-eslint/no-var-requires": 0,
-        "arrow-parens": ["error", "as-needed"],
-        "no-param-reassign": "error",
-        "no-undef": "error",
-        "no-var": "error",
-        "prefer-const": "error"
+        "@typescript-eslint/explicit-function-return-type": "off"
     },
     "overrides": [
         {
