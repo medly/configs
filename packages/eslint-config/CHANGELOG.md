@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.3.0](https://github.com/medly/configs/compare/@medly/eslint-config@0.2.3...@medly/eslint-config@0.3.0) (2021-06-29)
+
+
+### Features
+
+* add svg support ([#49](https://github.com/medly/configs/issues/49)) ([73535a5](https://github.com/medly/configs/commit/73535a57bcbadf9da59be2dde76efab74d7f02db))
+
+
+
+
+
 ## [0.2.3](https://github.com/medly/configs/compare/@medly/eslint-config@0.2.2...@medly/eslint-config@0.2.3) (2021-06-16)
 
 **Note:** Version bump only for package @medly/eslint-config

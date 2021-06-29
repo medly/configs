@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.2.0](https://github.com/medly/configs/compare/@medly/babel-config-react@0.1.5...@medly/babel-config-react@0.2.0) (2021-06-29)
+
+
+### Features
+
+* add svg support ([#49](https://github.com/medly/configs/issues/49)) ([73535a5](https://github.com/medly/configs/commit/73535a57bcbadf9da59be2dde76efab74d7f02db))
+
+
+
+
+
 ## [0.1.5](https://github.com/medly/configs/compare/@medly/babel-config-react@0.1.4...@medly/babel-config-react@0.1.5) (2021-06-23)
 
 
