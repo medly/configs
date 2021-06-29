@@ -20,7 +20,7 @@ const configs = ['es', 'cjs'].map(format => {
     return {
         input: path.join(PACKAGE_ROOT_PATH, `./src/index.${isTypescriptProject ? 'ts' : 'js'}`),
         preserveModules: true,
-        external: [...Object.keys(PKG_JSON.peerDependencies || {}), ...Object.keys(PKG_JSON.dependencies || {})],
+        external: [/@babel\/runtime/, ...Object.keys(PKG_JSON.peerDependencies || {}), ...Object.keys(PKG_JSON.dependencies || {})],
         plugins: [
             commonjs(),
             nodeResolve({
@@ -31,7 +31,7 @@ const configs = ['es', 'cjs'].map(format => {
             babel({
                 ...PKG_JSON.babel,
                 extensions,
-                babelHelpers: 'bundled'
+                babelHelpers: 'runtime'
             }),
             ...(isTypescriptProject
                 ? [
