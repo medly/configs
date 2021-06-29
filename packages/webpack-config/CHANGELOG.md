@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.2.0](https://github.com/medly/configs/compare/@medly/webpack-config@0.1.8...@medly/webpack-config@0.2.0) (2021-06-29)
+
+
+### Features
+
+* add file loader to support png, jpeg, gif in webpack config ([#52](https://github.com/medly/configs/issues/52)) ([e67068d](https://github.com/medly/configs/commit/e67068db46e15a26d1205b5556a32120c5fc31f1))
+
+
+
+
+
 ## [0.1.8](https://github.com/medly/configs/compare/@medly/webpack-config@0.1.7...@medly/webpack-config@0.1.8) (2021-06-23)
 
 
