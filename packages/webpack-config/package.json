@@ -4,13 +4,15 @@
     "version": "0.2.0",
     "sideEffects": false,
     "main": "index.js",
+    "types": "index.d.ts",
     "publishConfig": {
         "access": "public",
         "registry": "https://registry.npmjs.org/medly"
     },
     "files": [
         "index.js",
-        "configs"
+        "configs",
+        "index.d.ts"
     ],
     "license": "MIT",
     "keywords": [
