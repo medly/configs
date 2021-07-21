@@ -4,6 +4,7 @@
     "version": "0.5.0",
     "sideEffects": false,
     "main": "index.js",
+    "types": "index.d.ts",
     "publishConfig": {
         "access": "public",
         "registry": "https://registry.npmjs.org/medly"
@@ -15,7 +16,8 @@
     "keywords": [
         "Medly",
         "rollup",
-        "config"
+        "config",
+        "index.d.ts"
     ],
     "author": "Mukul Bansal",
     "dependencies": {
