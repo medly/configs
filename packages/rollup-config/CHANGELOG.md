@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.6.0](https://github.com/medly/configs/compare/@medly/rollup-config@0.5.0...@medly/rollup-config@0.6.0) (2021-07-21)
+
+
+### Features
+
+* add types for rollup config's configure function ([#54](https://github.com/medly/configs/issues/54)) ([da4084c](https://github.com/medly/configs/commit/da4084c26d477b932dc91896d2c270951536f450))
+
+
+
+
+
 # [0.5.0](https://github.com/medly/configs/compare/@medly/rollup-config@0.4.0...@medly/rollup-config@0.5.0) (2021-06-29)
 
 
