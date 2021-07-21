@@ -1,2 +1,2 @@
-import { OutputOptions } from 'rollup';
-export declare const configure: (config: OutputOptions) => OutputOptions[];
+import { RollupOptions } from 'rollup';
+export declare const configure: (config: RollupOptions) => RollupOptions[];
