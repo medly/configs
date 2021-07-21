@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.3.0](https://github.com/medly/configs/compare/@medly/webpack-config@0.2.0...@medly/webpack-config@0.3.0) (2021-07-21)
+
+
+### Features
+
+* add types for weppack config's configure function ([#53](https://github.com/medly/configs/issues/53)) ([1a97877](https://github.com/medly/configs/commit/1a97877121fa48086defa0e5cd4f6e3adaa5c67d))
+
+
+
+
+
 # [0.2.0](https://github.com/medly/configs/compare/@medly/webpack-config@0.1.8...@medly/webpack-config@0.2.0) (2021-06-29)
 
 
