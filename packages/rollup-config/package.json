@@ -10,14 +10,14 @@
         "registry": "https://registry.npmjs.org/medly"
     },
     "files": [
-        "index.js"
+        "index.js",
+        "index.d.ts"
     ],
     "license": "MIT",
     "keywords": [
         "Medly",
         "rollup",
-        "config",
-        "index.d.ts"
+        "config"
     ],
     "author": "Mukul Bansal",
     "dependencies": {
