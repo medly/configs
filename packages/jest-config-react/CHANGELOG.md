@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.3.0](https://github.com/medly/configs/compare/@medly/jest-config-react@0.2.1...@medly/jest-config-react@0.3.0) (2021-07-26)
+
+
+### Features
+
+* **jest-config-react:** ddd types for configure method exported by '@medly/jest-config-react' ([#55](https://github.com/medly/configs/issues/55)) ([3b1ec83](https://github.com/medly/configs/commit/3b1ec83c981a742d4ae3e3c0186d1d757e2c96b4))
+
+
+
+
+
 ## [0.2.1](https://github.com/medly/configs/compare/@medly/jest-config-react@0.2.0...@medly/jest-config-react@0.2.1) (2021-06-23)
 
 

@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.7.0](https://github.com/medly/configs/compare/@medly/rollup-config@0.6.0...@medly/rollup-config@0.7.0) (2021-07-26)
+
+
+### Features
+
+* **jest-config-react:** ddd types for configure method exported by '@medly/jest-config-react' ([#55](https://github.com/medly/configs/issues/55)) ([3b1ec83](https://github.com/medly/configs/commit/3b1ec83c981a742d4ae3e3c0186d1d757e2c96b4))
+
+
+
+
+
 # [0.6.0](https://github.com/medly/configs/compare/@medly/rollup-config@0.5.0...@medly/rollup-config@0.6.0) (2021-07-21)
 
 
