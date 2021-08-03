@@ -9,7 +9,7 @@
         [
             "@semantic-release/git",
             {
-                "message": "chore(release): publish ${nextRelease.version} version\n\n${nextRelease.notes}"
+                "message": "chore(release): publish ${nextRelease.version} version [skip ci]\n\n${nextRelease.notes}"
             }
         ]
     ]
