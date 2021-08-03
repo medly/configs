@@ -1,7 +1,7 @@
 {
     "name": "@medly/semantic-release-config",
     "description": "Basic semantic release config",
-    "version": "0.1.4",
+    "version": "0.1.5",
     "sideEffects": false,
     "main": "index.json",
     "publishConfig": {
