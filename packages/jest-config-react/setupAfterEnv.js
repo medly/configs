@@ -46,6 +46,8 @@ beforeAll(() => {
         }
         originalError.call(console, ...args);
     };
+    const { getComputedStyle } = window;
+    window.getComputedStyle = elt => getComputedStyle(elt);
 });
 
 afterAll(() => {
