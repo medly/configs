@@ -1,7 +1,7 @@
 {
     "name": "@medly/jest-config-react",
     "description": "Basic jest config for react apps",
-    "version": "0.3.0",
+    "version": "0.3.1",
     "sideEffects": false,
     "main": "index.js",
     "types": "index.d.ts",

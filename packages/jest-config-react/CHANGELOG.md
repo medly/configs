@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.3.1](https://github.com/medly/configs/compare/@medly/jest-config-react@0.3.0...@medly/jest-config-react@0.3.1) (2021-08-22)
+
+
+### Bug Fixes
+
+* error thrown from jest-axe ([#59](https://github.com/medly/configs/issues/59)) ([8e55a9a](https://github.com/medly/configs/commit/8e55a9acd4f51844d71d3193448defecc7544097))
+
+
+
+
+
 # [0.3.0](https://github.com/medly/configs/compare/@medly/jest-config-react@0.2.1...@medly/jest-config-react@0.3.0) (2021-07-26)
 
 
