@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.7.1](https://github.com/medly/configs/compare/@medly/rollup-config@0.7.0...@medly/rollup-config@0.7.1) (2021-08-31)
+
+
+### Bug Fixes
+
+* babel runtime issue in rollup config ([#60](https://github.com/medly/configs/issues/60)) ([26f102c](https://github.com/medly/configs/commit/26f102c17a4bf89d9dfc2a7af4ed8acdce3e1f2b))
+
+
+
+
+
 # [0.7.0](https://github.com/medly/configs/compare/@medly/rollup-config@0.6.0...@medly/rollup-config@0.7.0) (2021-07-26)
 
 
