@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.1.4](https://github.com/medly/configs/compare/@medly/babel-config@0.1.3...@medly/babel-config@0.1.4) (2021-08-31)
+
+
+### Bug Fixes
+
+* rollup build hang issue ([#61](https://github.com/medly/configs/issues/61)) ([d0b6c96](https://github.com/medly/configs/commit/d0b6c968396f5c293839b6aabf780ccffbd45cab))
+
+
+
+
+
 ## [0.1.3](https://github.com/medly/configs/compare/@medly/babel-config@0.1.2...@medly/babel-config@0.1.3) (2021-06-10)
 
 

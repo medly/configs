@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.3.1](https://github.com/medly/configs/compare/@medly/eslint-config@0.3.0...@medly/eslint-config@0.3.1) (2021-08-31)
+
+
+### Bug Fixes
+
+* rollup build hang issue ([#61](https://github.com/medly/configs/issues/61)) ([d0b6c96](https://github.com/medly/configs/commit/d0b6c968396f5c293839b6aabf780ccffbd45cab))
+
+
+
+
+
 # [0.3.0](https://github.com/medly/configs/compare/@medly/eslint-config@0.2.3...@medly/eslint-config@0.3.0) (2021-06-29)
 
 
