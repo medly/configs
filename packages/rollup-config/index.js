@@ -31,7 +31,8 @@ const configs = ['es', 'cjs'].map(format => {
             babel({
                 ...PKG_JSON.babel,
                 extensions,
-                babelHelpers: 'runtime'
+                babelHelpers: 'runtime',
+                skipPreflightCheck: true
             }),
             ...(isTypescriptProject
                 ? [
