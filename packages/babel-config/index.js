@@ -8,12 +8,10 @@ module.exports = function (api) {
             ],
             '@babel/typescript'
         ],
-        plugins = [],
+        plugins = ['@babel/plugin-transform-runtime'],
         ignore = ['node_modules'];
 
-    if (api.env('test')) {
-        plugins.push('@babel/plugin-transform-runtime');
-    } else {
+    if (!api.env('test')) {
         ignore.push('**/*.test.ts', '**/*.test.tsx', '**/*.test.js', '**/*.test.jsx', '__snapshots__');
     }
 
