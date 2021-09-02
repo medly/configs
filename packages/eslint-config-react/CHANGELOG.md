@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.1.10](https://github.com/medly/configs/compare/@medly/eslint-config-react@0.1.9...@medly/eslint-config-react@0.1.10) (2021-09-02)
+
+**Note:** Version bump only for package @medly/eslint-config-react
+
+
+
+
+
 ## [0.1.9](https://github.com/medly/configs/compare/@medly/eslint-config-react@0.1.8...@medly/eslint-config-react@0.1.9) (2021-08-31)
 
 **Note:** Version bump only for package @medly/eslint-config-react
