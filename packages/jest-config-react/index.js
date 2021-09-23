@@ -27,23 +27,25 @@ const defaultConfig = {
     testMatch: ['**/*.(spec|test).(ts|tsx)'],
     verbose: true,
     moduleNameMapper: {
-        '\\.(css|less)$': '<rootDir>/node_modules/@medly/jest-config-react/styleMock.js',
+        '\\.(css|less|xsl)$': '<rootDir>/node_modules/@medly/jest-config-react/styleMock.js',
         '^@store(.*)$': '<rootDir>/src/store$1',
         '^@test-utils': '<rootDir>/src/utils/test-utils',
         '^@components(.*)$': '<rootDir>/src/components$1',
         '^@theme(.*)$': '<rootDir>/src/theme$1',
         '^@utils(.*)$': '<rootDir>/src/utils$1',
         '^@pages(.*)$': '<rootDir>/src/pages$1',
-        '^@routes(.*)$': '<rootDir>/src/routes$1'
+        '^@routes(.*)$': '<rootDir>/src/routes$1',
+        '^@hooks(.*)$': '<rootDir>/src/hooks$1',
+        '^@constants(.*)$': '<rootDir>/src/constants$1'
     }
 };
 
-const merge = (target, source) =>
+const merge = (target = {}, source) =>
     Object.entries(source).reduce(
         (acc, [key, value]) => ({
             ...acc,
             ...(Array.isArray(value)
-                ? { [key]: Array.from(new Set(acc[key].concat(value))) }
+                ? { [key]: Array.from(new Set(acc[key]?.concat(value))) }
                 : typeof value === 'object'
                 ? { [key]: merge(acc[key], value) }
                 : { [key]: value })

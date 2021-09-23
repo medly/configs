@@ -66,6 +66,10 @@ module.exports = {
                     'babel-loader',
                     'stylelint-custom-processor-loader'
                 ]
+            },
+            {
+                test: /\.xsl$/i,
+                use: 'raw-loader'
             }
         ]
     },

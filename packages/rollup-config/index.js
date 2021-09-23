@@ -58,12 +58,12 @@ const configs = ['es', 'cjs'].map(format => {
     };
 });
 
-const merge = (target, source) =>
+const merge = (target = {}, source) =>
     Object.entries(source).reduce(
         (acc, [key, value]) => ({
             ...acc,
             ...(Array.isArray(value)
-                ? { [key]: Array.from(new Set(acc[key].concat(value))) }
+                ? { [key]: Array.from(new Set(acc[key]?.concat(value))) }
                 : typeof value === 'object'
                 ? { [key]: merge(acc[key], value) }
                 : { [key]: value })
