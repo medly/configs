@@ -17,6 +17,9 @@ module.exports = function (api) {
     if (api.env() === 'development') {
         plugins.push('react-hot-loader/babel');
     }
+    if (api.env() === 'production') {
+        plugins.push(['react-remove-properties', { properties: ['data-testid'] }]);
+    }
 
     return { presets, plugins, extends: '@medly/babel-config' };
 };
