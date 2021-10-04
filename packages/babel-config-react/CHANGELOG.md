@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.3.0](https://github.com/medly/configs/compare/@medly/babel-config-react@0.2.2...@medly/babel-config-react@0.3.0) (2021-10-04)
+
+
+### Features
+
+* add plugin in babel react config to remove data-testid from production build ([17e88fe](https://github.com/medly/configs/commit/17e88fe5caef049568b007b818105d4a4b278fa2))
+
+
+
+
+
 ## [0.2.2](https://github.com/medly/configs/compare/@medly/babel-config-react@0.2.1...@medly/babel-config-react@0.2.2) (2021-08-31)
 
 **Note:** Version bump only for package @medly/babel-config-react
