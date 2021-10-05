@@ -1,4 +1,5 @@
 const path = require('path');
+const webpack = require('webpack');
 const CopyPlugin = require('copy-webpack-plugin');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const { CleanWebpackPlugin } = require('clean-webpack-plugin');
@@ -28,7 +29,8 @@ module.exports = {
     resolve: {
         extensions: ['.js', '.ts', '.tsx', '.json'],
         symlinks: false,
-        plugins: [new TsconfigPathsPlugin()]
+        plugins: [new TsconfigPathsPlugin()],
+        fallback: { util: require.resolve('util/'), assert: require.resolve('assert/'), buffer: require.resolve('buffer/') }
     },
     module: {
         rules: [
@@ -73,6 +75,7 @@ module.exports = {
             }
         ]
     },
+    ignoreWarnings: [/Critical dependency: the request of a dependency is an expression/],
     plugins: [
         new CleanWebpackPlugin(),
         new HtmlWebpackPlugin({
@@ -99,6 +102,9 @@ module.exports = {
             failOnError: true
         }),
         new CompressionPlugin(),
-        new Dotenv({ systemvars: true })
+        new Dotenv({ systemvars: true }),
+        new webpack.ProvidePlugin({
+            process: 'process/browser'
+        })
     ]
 };
