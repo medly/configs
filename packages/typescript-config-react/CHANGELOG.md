@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.2.0](https://github.com/medly/configs/compare/@medly/typescript-config-react@1.1.0...@medly/typescript-config-react@1.2.0) (2021-10-06)
+
+
+### Features
+
+* update typescript-config package version in typescript-config-react ([#74](https://github.com/medly/configs/issues/74)) ([db9a229](https://github.com/medly/configs/commit/db9a229e5214d47ad6e2688b01c384a6559d853e))
+
+
+
+
+
 # [1.1.0](https://github.com/medly/configs/compare/@medly/typescript-config-react@0.0.6...@medly/typescript-config-react@1.1.0) (2021-10-06)
 
 
