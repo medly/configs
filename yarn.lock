@@ -2192,36 +2192,6 @@
     mkdirp "^0.5.1"
     rimraf "^2.5.2"
 
-"@medly/eslint-config@^0.1.0":
-  version "0.1.2"
-  resolved "https://registry.yarnpkg.com/@medly/eslint-config/-/eslint-config-0.1.2.tgz#b2d2466ae572ab0d857ab0c00780623185ed3136"
-  integrity sha512-IcG6WqangrYmVmQwzn30b7ULPA6v/odDoe1DWxSH+f79Jd+sMEyGDRL3E/OkzCeuideRTLd9y7TJ/NF0FH+roA==
-  dependencies:
-    "@typescript-eslint/eslint-plugin" "^4.23.0"
-    "@typescript-eslint/parser" "^4.23.0"
-    eslint "^7.26.0"
-    eslint-config-prettier "^8.3.0"
-    eslint-plugin-jest "^24.3.6"
-    eslint-plugin-prettier "^3.4.0"
-    eslint-plugin-react "^7.23.2"
-    eslint-plugin-react-hooks "^4.2.0"
-
-"@medly/typescript-config@0.3.1":
-  version "0.3.1"
-  resolved "https://registry.yarnpkg.com/@medly/typescript-config/-/typescript-config-0.3.1.tgz#6f2375ef5b6ecd43802edc079d52dda6af19c819"
-  integrity sha512-tpKt7bcGBn+ZPnpP2sKarlJvbEp9TvPvCz+48CBPaqthAiEaAWRfWp6ioUL2zeAGM/KhGYu0BGhrRY2LfzbZ5Q==
-  dependencies:
-    "@types/jest" "^26.0.23"
-    typescript "4.3.4"
-
-"@medly/typescript-config@^0.1.0":
-  version "0.1.2"
-  resolved "https://registry.yarnpkg.com/@medly/typescript-config/-/typescript-config-0.1.2.tgz#ffab8bdf688151c3f69021171d0a00e58f7b1c53"
-  integrity sha512-/0pOG4YXrRMCXzZr7Mh/sT2IYgzRcQdiAMT4V6JSclQxkDNS5FTxTSHE916Hhq0moEA0dtqwIHgx5OyOYfTU2g==
-  dependencies:
-    "@types/jest" "^26.0.23"
-    typescript "^4.2.4"
-
 "@mrmlnc/readdir-enhanced@^2.2.1":
   version "2.2.1"
   resolved "https://registry.yarnpkg.com/@mrmlnc/readdir-enhanced/-/readdir-enhanced-2.2.1.tgz#524af240d1a360527b730475ecfa1344aa540dde"
@@ -5981,7 +5951,7 @@ eslint-visitor-keys@^2.0.0:
   resolved "https://registry.yarnpkg.com/eslint-visitor-keys/-/eslint-visitor-keys-2.1.0.tgz#f65328259305927392c938ed44eb0a5c9b2bd303"
   integrity sha512-0rSmRBzXgDzIsD6mGdJgevzgezI534Cer5L/vyMX0kHzT/jiB43jRhd9YUlMGYLQy2zprNmoT8qasCGtY+QaKw==
 
-eslint@^7.26.0, eslint@^7.28.0:
+eslint@^7.28.0:
   version "7.32.0"
   resolved "https://registry.yarnpkg.com/eslint/-/eslint-7.32.0.tgz#c6d328a14be3fb08c8d1d21e12c02fdb7a2a812d"
   integrity sha512-VHZ8gX+EDfz+97jGcgyGCyRia/dPOd6Xh9yPv8Bl1+SoaIwD+a/vlrOmGRUyOYu7MwUhc7CxqeaDZU13S4+EpA==
@@ -13498,11 +13468,6 @@ typescript@4.3.4:
   version "4.3.4"
   resolved "https://registry.yarnpkg.com/typescript/-/typescript-4.3.4.tgz#3f85b986945bcf31071decdd96cf8bfa65f9dcbc"
   integrity sha512-uauPG7XZn9F/mo+7MrsRjyvbxFpzemRjKEZXS4AK83oP2KKOJPvb+9cO/gmnv8arWZvhnjVOXz7B49m1l0e9Ew==
-
-typescript@^4.2.4:
-  version "4.4.3"
-  resolved "https://registry.yarnpkg.com/typescript/-/typescript-4.4.3.tgz#bdc5407caa2b109efd4f82fe130656f977a29324"
-  integrity sha512-4xfscpisVgqqDfPaJo5vkd+Qd/ItkoagnHpufr+i2QCHBsNYp+G7UAoyFl8aPtx879u38wPV65rZ8qbGZijalA==
 
 uglify-js@^3.1.4:
   version "3.14.2"
