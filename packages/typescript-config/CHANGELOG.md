@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.3.1](https://github.com/medly/configs/compare/@medly/typescript-config@0.3.0...@medly/typescript-config@0.3.1) (2021-10-06)
+
+
+### Reverts
+
+* Revert "feat: add strict null check in typescript config" (#71) ([ffce8ae](https://github.com/medly/configs/commit/ffce8ae9edfb0ce4552b21f4da419143421f4d1c)), closes [#71](https://github.com/medly/configs/issues/71)
+
+
+
+
+
 # [0.3.0](https://github.com/medly/configs/compare/@medly/typescript-config@0.2.4...@medly/typescript-config@0.3.0) (2021-10-06)
 
 
