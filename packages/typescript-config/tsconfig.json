@@ -11,6 +11,8 @@
         "resolveJsonModule": true,
         "skipLibCheck": true,
         "strict": true,
+        "strictFunctionTypes": false,
+        "strictNullChecks": false,
         "target": "esnext",
         "types": ["jest", "node"]
     }
