@@ -2206,6 +2206,14 @@
     eslint-plugin-react "^7.23.2"
     eslint-plugin-react-hooks "^4.2.0"
 
+"@medly/typescript-config@0.3.1":
+  version "0.3.1"
+  resolved "https://registry.yarnpkg.com/@medly/typescript-config/-/typescript-config-0.3.1.tgz#6f2375ef5b6ecd43802edc079d52dda6af19c819"
+  integrity sha512-tpKt7bcGBn+ZPnpP2sKarlJvbEp9TvPvCz+48CBPaqthAiEaAWRfWp6ioUL2zeAGM/KhGYu0BGhrRY2LfzbZ5Q==
+  dependencies:
+    "@types/jest" "^26.0.23"
+    typescript "4.3.4"
+
 "@medly/typescript-config@^0.1.0":
   version "0.1.2"
   resolved "https://registry.yarnpkg.com/@medly/typescript-config/-/typescript-config-0.1.2.tgz#ffab8bdf688151c3f69021171d0a00e58f7b1c53"
