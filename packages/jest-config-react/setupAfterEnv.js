@@ -1,5 +1,6 @@
 require('@testing-library/jest-dom/extend-expect');
 require('jest-styled-components');
+require('regenerator-runtime/runtime');
 
 const storageMock = () => {
     const storage = {};
