@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.3.3](https://github.com/medly/configs/compare/@medly/jest-config-react@0.3.2...@medly/jest-config-react@0.3.3) (2021-10-12)
+
+
+### Bug Fixes
+
+* fix regenerator runtime error in jest tests ([f2b7f47](https://github.com/medly/configs/commit/f2b7f47820df7317f67602ba53e9536cb585831f))
+
+
+
+
+
 ## [0.3.2](https://github.com/medly/configs/compare/@medly/jest-config-react@0.3.1...@medly/jest-config-react@0.3.2) (2021-09-23)
 
 **Note:** Version bump only for package @medly/jest-config-react
