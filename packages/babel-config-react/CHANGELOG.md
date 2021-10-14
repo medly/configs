@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.3.1](https://github.com/medly/configs/compare/@medly/babel-config-react@0.3.0...@medly/babel-config-react@0.3.1) (2021-10-14)
+
+
+### Bug Fixes
+
+* common id issue in svg files ([#77](https://github.com/medly/configs/issues/77)) ([3be418c](https://github.com/medly/configs/commit/3be418c5110318e088b38913e2b57a1409307406))
+
+
+
+
+
 # [0.3.0](https://github.com/medly/configs/compare/@medly/babel-config-react@0.2.2...@medly/babel-config-react@0.3.0) (2021-10-04)
 
 
