@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.2.0](https://github.com/medly/configs/compare/@medly/stylelint-config@0.1.2...@medly/stylelint-config@0.2.0) (2021-10-14)
+
+
+### Features
+
+* remove declaration bang space before in stylelint config ([fc714e8](https://github.com/medly/configs/commit/fc714e89441cc173f6dd3e0aabc8c6cad899dc39))
+
+
+
+
+
 ## [0.1.2](https://github.com/medly/configs/compare/@medly/stylelint-config@0.1.1...@medly/stylelint-config@0.1.2) (2021-06-10)
 
 
