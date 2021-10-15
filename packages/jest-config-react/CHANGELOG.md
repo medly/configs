@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.4.0](https://github.com/medly/configs/compare/@medly/jest-config-react@0.3.3...@medly/jest-config-react@0.4.0) (2021-10-15)
+
+
+### Features
+
+* add crypto in jest config to generate random numbers ([#79](https://github.com/medly/configs/issues/79)) ([4292ef9](https://github.com/medly/configs/commit/4292ef9bd5d30a14bfec6c371deb8a9283f09f51))
+
+
+
+
+
 ## [0.3.3](https://github.com/medly/configs/compare/@medly/jest-config-react@0.3.2...@medly/jest-config-react@0.3.3) (2021-10-12)
 
 
