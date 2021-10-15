@@ -1,6 +1,7 @@
 require('@testing-library/jest-dom/extend-expect');
 require('jest-styled-components');
 require('regenerator-runtime/runtime');
+const nodeCrypto = require('crypto');
 
 const storageMock = () => {
     const storage = {};
@@ -37,7 +38,12 @@ Object.defineProperty(window, 'matchMedia', {
 
 /* eslint-disable */
 window.localStorage = storageMock();
-window.HTMLElement.prototype.scrollIntoView = function () {};
+window.HTMLElement.prototype.scrollIntoView = jest.fn();
+window.crypto = {
+    getRandomValues: function (buffer) {
+        return nodeCrypto.randomFillSync(buffer);
+    }
+};
 
 const originalError = console.error;
 beforeAll(() => {
