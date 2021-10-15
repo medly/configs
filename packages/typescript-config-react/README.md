@@ -16,7 +16,7 @@ Add below code in `tsconfig.json` file.
 
 ```json
 {
- "extends": "@medly/typescript-config",
+ "extends": "@medly/typescript-config-react",
  "include": ["src", "types"],
  "exclude": ["node_modules", "dist", "coverage"]
 }

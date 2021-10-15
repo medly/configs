@@ -29,6 +29,7 @@
     },
     "dependencies": {
         "@testing-library/jest-dom": "^5.13.0",
+        "crypto": "^1.0.1",
         "jest": "^27.0.4",
         "jest-styled-components": "^7.0.4"
     }
