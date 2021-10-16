@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.4.0](https://github.com/medly/configs/compare/@medly/eslint-config@0.3.2...@medly/eslint-config@0.4.0) (2021-10-16)
+
+
+### Features
+
+* add rule to allow single extends in typescript interface in eslint config ([#80](https://github.com/medly/configs/issues/80)) ([982c3bb](https://github.com/medly/configs/commit/982c3bbf467a974740f4265e2de014168ce49f41))
+
+
+
+
+
 ## [0.3.2](https://github.com/medly/configs/compare/@medly/eslint-config@0.3.1...@medly/eslint-config@0.3.2) (2021-09-02)
 
 **Note:** Version bump only for package @medly/eslint-config
