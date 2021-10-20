@@ -3,6 +3,22 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.3.0](https://github.com/medly/configs/compare/@medly/typescript-config-react@1.2.0...@medly/typescript-config-react@1.3.0) (2021-10-20)
+
+
+### Bug Fixes
+
+* downgrading typescript version ([#81](https://github.com/medly/configs/issues/81)) ([21c2f6e](https://github.com/medly/configs/commit/21c2f6e646032a46b1c8546cf10156c836cea5f6))
+
+
+### Features
+
+* add crypto in jest config to generate random numbers ([#79](https://github.com/medly/configs/issues/79)) ([4292ef9](https://github.com/medly/configs/commit/4292ef9bd5d30a14bfec6c371deb8a9283f09f51))
+
+
+
+
+
 # [1.2.0](https://github.com/medly/configs/compare/@medly/typescript-config-react@1.1.0...@medly/typescript-config-react@1.2.0) (2021-10-06)
 
 

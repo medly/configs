@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.1.1](https://github.com/medly/configs/compare/@medly/typescript-config@1.1.0...@medly/typescript-config@1.1.1) (2021-10-20)
+
+
+### Bug Fixes
+
+* downgrading typescript version ([#81](https://github.com/medly/configs/issues/81)) ([21c2f6e](https://github.com/medly/configs/commit/21c2f6e646032a46b1c8546cf10156c836cea5f6))
+
+
+
+
+
 # [1.1.0](https://github.com/medly/configs/compare/@medly/typescript-config@0.3.1...@medly/typescript-config@1.1.0) (2021-10-06)
 
 

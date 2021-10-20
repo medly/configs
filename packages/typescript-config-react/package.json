@@ -1,7 +1,7 @@
 {
     "name": "@medly/typescript-config-react",
     "description": "Basic typescript config for react app",
-    "version": "1.2.0",
+    "version": "1.3.0",
     "sideEffects": false,
     "main": "tsconfig.json",
     "publishConfig": {
@@ -10,7 +10,7 @@
     },
     "license": "MIT",
     "dependencies": {
-        "@medly/typescript-config": "^1.1.0",
+        "@medly/typescript-config": "1.1.1",
         "@testing-library/jest-dom": "^5.13.0",
         "typescript": "4.2.4"
     },
