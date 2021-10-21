@@ -1,16 +1,18 @@
 module.exports = function (api) {
-    const presets = ['@babel/react'],
+    const overrides = [],
+        presets = ['@babel/react'],
         plugins = [
+            '@babel/plugin-transform-runtime',
             [
                 'babel-plugin-styled-components',
                 {
                     pure: true,
-                    displayName: true,
                     minify: true,
+                    fileName: false,
+                    displayName: false,
                     transpileTemplateLiterals: true
                 }
             ],
-            '@babel/plugin-transform-runtime',
             [
                 'inline-react-svg',
                 {
@@ -28,11 +30,22 @@ module.exports = function (api) {
         ];
 
     if (api.env() === 'development') {
-        plugins.push('react-hot-loader/babel');
+        overrides.push({
+            plugins: [
+                [
+                    'babel-plugin-styled-components',
+                    {
+                        fileName: true,
+                        displayName: true
+                    }
+                ]
+            ]
+        });
     }
+
     if (api.env() === 'production') {
         plugins.push(['react-remove-properties', { properties: ['data-testid'] }]);
     }
 
-    return { presets, plugins, extends: '@medly/babel-config' };
+    return { presets, plugins, overrides, extends: '@medly/babel-config' };
 };
