@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.5.0](https://github.com/medly/configs/compare/@medly/babel-config-react@0.4.0...@medly/babel-config-react@0.5.0) (2021-11-10)
+
+
+### Features
+
+* use new jsx transform in react app ([#84](https://github.com/medly/configs/issues/84)) ([9d1fe9e](https://github.com/medly/configs/commit/9d1fe9ed081f20be214ae90a032673985dce5b69))
+
+
+
+
+
 # [0.4.0](https://github.com/medly/configs/compare/@medly/babel-config-react@0.3.2...@medly/babel-config-react@0.4.0) (2021-10-21)
 
 

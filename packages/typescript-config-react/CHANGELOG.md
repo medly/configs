@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.4.0](https://github.com/medly/configs/compare/@medly/typescript-config-react@1.3.0...@medly/typescript-config-react@1.4.0) (2021-11-10)
+
+
+### Features
+
+* use new jsx transform in react app ([#84](https://github.com/medly/configs/issues/84)) ([9d1fe9e](https://github.com/medly/configs/commit/9d1fe9ed081f20be214ae90a032673985dce5b69))
+
+
+
+
+
 # [1.3.0](https://github.com/medly/configs/compare/@medly/typescript-config-react@1.2.0...@medly/typescript-config-react@1.3.0) (2021-10-20)
 
 
