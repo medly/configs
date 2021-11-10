@@ -21,3 +21,26 @@ Add below code in `tsconfig.json` file.
  "exclude": ["node_modules", "dist", "coverage"]
 }
 ```
+
+## Default config
+
+The given typescript config comes predefined with following options
+
+```json
+"compilerOptions": {
+    "jsx": "react",
+    "allowJs": true,
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "isolatedModules": true,
+    "lib": ["dom", "ES5", "ES2015", "ES2017", "ES2018", "ESNext"],
+    "module": "CommonJS",
+    "moduleResolution": "node",
+    "noEmit": true,
+    "resolveJsonModule": true,
+    "skipLibCheck": true,
+    "strict": true,
+    "target": "esnext",
+    "types": ["jest", "node", "testing-library__jest-dom"],
+}
+```
