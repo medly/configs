@@ -4,6 +4,8 @@
 [![GitHub](https://img.shields.io/github/license/medly/medly-components)](https://github.com/medly/medly-components/blob/master/LICENSE)
 [![lerna](https://img.shields.io/badge/maintained%20with-lerna-cc00ff.svg)](https://lerna.js.org/)
 
+Medly configs contains common configurations that you can use across your project to have a single style configuration across all your projects.
+
 ## Goal
 
 - 🧩 share common configurations across different projects
