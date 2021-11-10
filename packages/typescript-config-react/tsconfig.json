@@ -1,7 +1,7 @@
 {
     "extends": "@medly/typescript-config",
     "compilerOptions": {
-        "jsx": "react",
+        "jsx": "react-jsx",
         "types": ["jest", "node", "testing-library__jest-dom"]
     }
 }

@@ -1,6 +1,13 @@
 module.exports = function (api) {
     const overrides = [],
-        presets = ['@babel/react'],
+        presets = [
+            [
+                '@babel/preset-react',
+                {
+                    runtime: 'automatic'
+                }
+            ]
+        ],
         plugins = [
             '@babel/plugin-transform-runtime',
             [
@@ -25,6 +32,12 @@ module.exports = function (api) {
                             }
                         ]
                     }
+                }
+            ],
+            [
+                '@babel/plugin-transform-react-jsx',
+                {
+                    runtime: 'automatic'
                 }
             ]
         ];
