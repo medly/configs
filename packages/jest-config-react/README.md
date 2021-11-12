@@ -27,3 +27,7 @@ module.exports = configure({
  rootDir: './'
 });
 ```
+
+## Default config
+
+You can view the default config [here](index.js)

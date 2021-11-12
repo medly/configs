@@ -29,3 +29,7 @@ Add below code in `tsconfig.json` file.
  "exclude": ["node_modules", "dist", "coverage"]
 }
 ```
+
+## Default config
+
+You can view the default config [here](tsconfig.json)

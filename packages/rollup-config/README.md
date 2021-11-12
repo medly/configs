@@ -53,3 +53,7 @@ Add below code in your `package.json`
 ```
 
 > **Note**: Add `tsconfig.json` file at the root level to emit type declaration files.
+
+## Default config
+
+You can view the default config [here](index.js)

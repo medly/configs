@@ -21,3 +21,8 @@ Add below code in your `package.json`
  }
 }
 ```
+
+## Default config
+
+You can view the default config [here](index.js)
+

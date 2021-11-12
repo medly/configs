@@ -25,3 +25,7 @@ Add below line in your `package.json`
  "prettier": "@medly/prettier-config"
 }
 ```
+
+## Default config
+
+You can view the default config [here](index.json)

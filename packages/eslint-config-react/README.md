@@ -22,3 +22,7 @@ Add below line in your `package.json`
  }
 }
 ```
+
+## Default options
+
+You can view the default config [here](index.json)
