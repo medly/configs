@@ -28,22 +28,4 @@ Add below line in your `package.json`
 
 ## Default config
 
-The given prettier config comes with following options
-
-```json
-"semi": true,
-"tabWidth": 4,
-"printWidth": 140,
-"singleQuote": true,
-"bracketSpacing": true,
-"trailingComma": "none",
-"arrowParens": "avoid",
-"overrides": [
-    {
-        "files": "*.md",
-        "options": {
-            "tabWidth": 1
-        }
-    }
-]
-```
+You can view the default config [here](index.json)

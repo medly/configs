@@ -28,23 +28,4 @@ Add below line in your `package.json`
 
 ## Default config
 
-The given stylelint config comes predefined with following options
-
-```json
-"syntax": "scss",
-"plugins": ["stylelint-prettier"],
-"extends": ["stylelint-config-standard", "stylelint-config-styled-components", "stylelint-prettier/recommended"],
-"rules": {
-    "prettier/prettier": true,
-    "value-keyword-case": null,
-    "declaration-bang-space-before": null,
-    "declaration-empty-line-before": "never",
-    "unit-no-unknown": [
-        true,
-        {
-            "ignoreUnits": ["`"]
-        }
-    ],
-    "function-name-case": null
-}
-```
+You can view the default config [here](index.json)

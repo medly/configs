@@ -25,46 +25,4 @@ Add below line in your `package.json`
 
 ## Default options
 
-The following eslint config comes with following options enabled
-
-```json
-"root": true,
-"env": {
-    "es6": true,
-    "browser": true,
-    "jest/globals": true
-},
-"settings": {
-    "react": {
-        "version": "detect"
-    }
-},
-"parserOptions": {
-    "ecmaVersion": 11,
-    "jsx": true
-},
-"globals": {
-    "React": true,
-    "JSX": true
-},
-"ignorePatterns": ["**/*.snap"],
-"parser": "@typescript-eslint/parser",
-"plugins": ["react", "react-hooks"],
-"extends": ["@medly", "plugin:react/recommended", "plugin:react-hooks/recommended"],
-"rules": {
-    "react/jsx-fragments": "warn",
-    "react/self-closing-comp": "warn",
-    "react-hooks/exhaustive-deps": "warn",
-    "react-hooks/rules-of-hooks": "error",
-    "react/prop-types": "off",
-    "react/jsx-no-bind": [
-        "error",
-        {
-            "allowArrowFunctions": true
-        }
-    ],
-    "@typescript-eslint/explicit-module-boundary-types": "off",
-    "react/jsx-uses-react": "off",
-    "react/react-in-jsx-scope": "off"
-}
-```
+You can view the default config [here](index.json)
