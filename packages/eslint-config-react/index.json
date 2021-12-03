@@ -20,9 +20,11 @@
     },
     "ignorePatterns": ["**/*.snap"],
     "parser": "@typescript-eslint/parser",
-    "plugins": ["react", "react-hooks"],
-    "extends": ["@medly", "plugin:react/recommended", "plugin:react-hooks/recommended"],
+    "plugins": ["react", "react-hooks", "testing-library"],
+    "extends": ["@medly", "plugin:react/recommended", "plugin:react-hooks/recommended", "plugin:testing-library/react"],
     "rules": {
+        "react/jsx-uses-react": "off",
+        "react/react-in-jsx-scope": "off",
         "react/jsx-fragments": "warn",
         "react/self-closing-comp": "warn",
         "react-hooks/exhaustive-deps": "warn",
@@ -34,8 +36,10 @@
                 "allowArrowFunctions": true
             }
         ],
-        "@typescript-eslint/explicit-module-boundary-types": "off",
-        "react/jsx-uses-react": "off",
-        "react/react-in-jsx-scope": "off"
+        "testing-library/await-async-utils": "warn",
+        "testing-library/no-await-sync-query": "warn",
+        "testing-library/prefer-presence-queries": "warn",
+        "testing-library/render-result-naming-convention": "warn",
+        "@typescript-eslint/explicit-module-boundary-types": "off"
     }
 }
