@@ -21,7 +21,7 @@
     "ignorePatterns": ["**/*.snap"],
     "parser": "@typescript-eslint/parser",
     "plugins": ["react", "react-hooks", "testing-library"],
-    "extends": ["@medly", "plugin:react/recommended", "plugin:react-hooks/recommended", "plugin:testing-library/react"],
+    "extends": ["@medly", "plugin:react/recommended", "plugin:react-hooks/recommended"],
     "rules": {
         "react/jsx-uses-react": "off",
         "react/react-in-jsx-scope": "off",
@@ -35,11 +35,23 @@
             {
                 "allowArrowFunctions": true
             }
-        ],
-        "testing-library/await-async-utils": "warn",
-        "testing-library/no-await-sync-query": "warn",
-        "testing-library/prefer-presence-queries": "warn",
-        "testing-library/render-result-naming-convention": "warn",
-        "@typescript-eslint/explicit-module-boundary-types": "off"
-    }
+        ]
+    },
+    "overrides": [
+        {
+            "files": ["**/__tests__/**/*.[jt]s?(x)", "**/?(*.)+(spec|test).[jt]s?(x)"],
+            "extends": ["plugin:testing-library/react"],
+            "rules": {
+                "testing-library/await-async-utils": "warn",
+                "testing-library/no-await-sync-query": "warn",
+                "testing-library/prefer-presence-queries": "warn",
+                "testing-library/render-result-naming-convention": "warn",
+                "testing-library/prefer-screen-queries": "warn",
+                "testing-library/no-dom-import": "warn",
+                "testing-library/prefer-find-by": "warn",
+                "testing-library/no-container": "off",
+                "testing-library/no-node-access": "off"
+            }
+        }
+    ]
 }
