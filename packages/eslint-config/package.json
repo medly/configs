@@ -1,7 +1,7 @@
 {
     "name": "@medly/eslint-config",
     "description": "Basic eslint config",
-    "version": "0.4.1",
+    "version": "0.5.0",
     "sideEffects": false,
     "main": "index.json",
     "publishConfig": {

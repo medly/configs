@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.5.0](https://github.com/medly/configs/compare/@medly/eslint-config@0.4.1...@medly/eslint-config@0.5.0) (2021-12-03)
+
+
+### Features
+
+* add some extra eslint rules ([#86](https://github.com/medly/configs/issues/86)) ([319a803](https://github.com/medly/configs/commit/319a8033319c8b63634659363de0f8eb473b92fc))
+
+
+
+
+
 ## [0.4.1](https://github.com/medly/configs/compare/@medly/eslint-config@0.4.0...@medly/eslint-config@0.4.1) (2021-10-20)
 
 
