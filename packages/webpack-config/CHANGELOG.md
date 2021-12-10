@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.4.0](https://github.com/medly/configs/compare/@medly/webpack-config@0.3.1...@medly/webpack-config@0.4.0) (2021-12-10)
+
+
+### Features
+
+* add url-loader for importing font files in weboack config ([#88](https://github.com/medly/configs/issues/88)) ([a9f93dd](https://github.com/medly/configs/commit/a9f93dd196cdbb87b87153054c9c049f5724f85a))
+
+
+
+
+
 ## [0.3.1](https://github.com/medly/configs/compare/@medly/webpack-config@0.3.0...@medly/webpack-config@0.3.1) (2021-09-23)
 
 **Note:** Version bump only for package @medly/webpack-config
