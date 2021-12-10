@@ -41,6 +41,14 @@ module.exports = {
                 ]
             },
             {
+                test: /\.(woff|woff2)$/i,
+                use: [
+                    {
+                        loader: 'url-loader'
+                    }
+                ]
+            },
+            {
                 test: /\.svg$/,
                 use: [
                     {
