@@ -2,16 +2,17 @@
 
 ## What is Jest?
 
-Jest is a delightful JavaScript Testing Framework with a focus on simplicity.
+Jest is an open-source testing framework built on JavaScript, designed majorly to work with React and React Native based web applications. It stands out by virtue of its simplicity, which makes it an ideal tool to test JavaScript Library Projects.
 
 ## About
 
-Jest rules recommended by Medly to provide more configuration power to your react based web applications.
+Jest rules are recommended to provide more configuration power to your react based web applications.
 
-> Shared [jest config](https://jestjs.io/docs/configuration)
+> Shared [Jest config](https://jestjs.io/docs/configuration)
 
 ## Install
 
+With Yarn:
 ```shell
 yarn add -D @medly/jest-config-react
 ```
@@ -30,4 +31,4 @@ module.exports = configure({
 
 ## Default config
 
-You can view the default config [here](index.js)
+To view the default config click [here](index.js)

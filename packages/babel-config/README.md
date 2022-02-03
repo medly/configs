@@ -1,20 +1,23 @@
 # Babel Config <img style="vertical-align: middle" height="30" src="https://raw.githubusercontent.com/babel/logo/master/babel.png">
 
-## What is Babel ?
+## What is Babel?
 
-Babel is a toolchain that is mainly used to convert ECMAScript 2015+ code into a backwards compatible version of JavaScript in current and older browsers or environments.
+**Babel is a JavaScript compiler**
+
+It is a toolchain that is mainly used to convert ECMAScript 2015+ code into a backwards compatible version of JavaScript in current and older browsers or environments.
 
 > Shared [Babel config](https://babeljs.io/docs/en/configuration)
 
 ## Install
 
+With Yarn:
 ```shell
 yarn add -D @medly/babel-config
 ```
 
 ## Usage
 
-Add below code in your `package.json`
+Add the below code in your `package.json`
 
 ```json
 {
@@ -26,4 +29,4 @@ Add below code in your `package.json`
 
 ## Default config
 
-You can view the default config [here](index.js)
+To view the default config click [here](index.js)

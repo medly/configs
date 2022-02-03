@@ -6,11 +6,13 @@ At its core, **webpack** is a static module bundler for modern JavaScript applic
 
 ## About
 
-webpack configuration recommended by Medly to bundle the assets in your projects.
+webpack configuration is recommended to bundle the assets in your projects.
 
 > Shared [webpack config](https://webpack.js.org/configuration/)
 
 ## Install
+
+With Yarn:
 
 ```shell
 yarn add -D @medly/webpack-config
@@ -58,4 +60,4 @@ Add below code in your `package.json`
 
 ## Default config
 
-You can view the default config [here](index.js)
+To view the default config click [here](index.js)

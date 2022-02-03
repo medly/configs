@@ -4,7 +4,7 @@
 [![GitHub](https://img.shields.io/github/license/medly/medly-components)](https://github.com/medly/medly-components/blob/master/LICENSE)
 [![lerna](https://img.shields.io/badge/maintained%20with-lerna-cc00ff.svg)](https://lerna.js.org/)
 
-Medly configs contains common configurations that you can use across your project to have a single style configuration across all your projects.
+The Config library contains common configurations that you can use across your project to have a single style configuration across all your projects.
 
 ## Goal
 
@@ -12,8 +12,8 @@ Medly configs contains common configurations that you can use across your projec
 - 🔥 minimize the amount of config files in project
 
 ## Packages
-
-Library consists of below packages:
+      
+The config library consists of the below packages:
 
 ### [Babel Config](https://github.com/medly/configs/tree/master/packages/babel-config) <img style="vertical-align: middle" height="20" src="https://raw.githubusercontent.com/babel/logo/master/babel.png">
 
@@ -38,3 +38,18 @@ Library consists of below packages:
 ### [Typescript Config for React Apps](https://github.com/medly/configs/tree/master/packages/typescript-config-react) <img style="vertical-align: middle" height="20" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/typescript/typescript.png"> <img style="vertical-align: middle" height="25" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/react/react.png">
 
 ### [Webpack Config](https://github.com/medly/configs/tree/master/packages/webpack-config) <img style="vertical-align: middle" height="25" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/webpack/webpack.png">
+
+### Contributing
+Please read CONTRIBUTING.md for details on our code of conduct, and the process for submitting us the pull requests.
+**CHECK if u can add this**
+
+## Contributors
+
+This project exists thanks to all the people who contribute.
+
+<a href="https://github.com/medly/configs/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=medly/configs" />
+</a>
+
+## Licence
+The config library is licensed by https://opensource.org/licenses/ISC.                                    
