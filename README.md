@@ -4,7 +4,7 @@
 [![GitHub](https://img.shields.io/github/license/medly/medly-components)](https://github.com/medly/medly-components/blob/master/LICENSE)
 [![lerna](https://img.shields.io/badge/maintained%20with-lerna-cc00ff.svg)](https://lerna.js.org/)
 
-The Config library contains common configurations that you can use across your project to have a single style configuration across all your projects.
+The Config library consists of all the common configurations that must be used across your projects to maintain a fixed structure.
 
 ## Goal
 
@@ -40,10 +40,9 @@ The config library consists of the below packages:
 ### [Webpack Config](https://github.com/medly/configs/tree/master/packages/webpack-config) <img style="vertical-align: middle" height="25" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/webpack/webpack.png">
 
 ### Contributing
-Please read [CONTRIBUTING.md](https://github.com/medly/configs/tree/master/CONTRIBUTING.md) for details on our code of conduct, and the process for submitting us the pull requests.
+Please read [CONTRIBUTING.md](CONTRIBUTING.md) for details on our code of conduct, and the process for submitting us the pull requests.
 
 ## Contributors
-
 This project exists thanks to all the people who contribute.
 
 <a href="https://github.com/medly/configs/graphs/contributors">
