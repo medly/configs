@@ -9,7 +9,7 @@ The Config library contains common configurations that you can use across your p
 ## Goal
 
 - 🧩 share common configurations across different projects
-- 🔥 minimize the amount of config files in project
+- 🔥 minimize the amount of config files in the project
 
 ## Packages
       
@@ -17,13 +17,13 @@ The config library consists of the below packages:
 
 ### [Babel Config](https://github.com/medly/configs/tree/master/packages/babel-config) <img style="vertical-align: middle" height="20" src="https://raw.githubusercontent.com/babel/logo/master/babel.png">
 
-### [Babel Config for React App](https://github.com/medly/configs/tree/master/packages/babel-config-react) <img style="vertical-align: middle" height="20" src="https://raw.githubusercontent.com/babel/logo/master/babel.png"> <img style="vertical-align: middle" height="25" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/react/react.png">
+### [Babel Config for React Apps](https://github.com/medly/configs/tree/master/packages/babel-config-react) <img style="vertical-align: middle" height="20" src="https://raw.githubusercontent.com/babel/logo/master/babel.png"> <img style="vertical-align: middle" height="25" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/react/react.png">
 
 ### [Eslint Config](https://github.com/medly/configs/tree/master/packages/eslint-config) <img style="vertical-align: middle" height="25" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/eslint/eslint.png">
 
-### [Eslint Config for React App](https://github.com/medly/configs/tree/master/packages/eslint-config-react) <img style="vertical-align: middle" height="20" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/eslint/eslint.png"> <img style="vertical-align: middle" height="25" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/react/react.png">
+### [Eslint Config for React Apps](https://github.com/medly/configs/tree/master/packages/eslint-config-react) <img style="vertical-align: middle" height="20" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/eslint/eslint.png"> <img style="vertical-align: middle" height="25" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/react/react.png">
 
-### [Jest Config for React App](https://github.com/medly/configs/tree/master/packages/jest-config-react) <img style="vertical-align: middle" height="20" src="https://cdn.freebiesupply.com/logos/large/2x/jest-logo-png-transparent.png"> <img style="vertical-align: middle" height="25" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/react/react.png">
+### [Jest Config for React Apps](https://github.com/medly/configs/tree/master/packages/jest-config-react) <img style="vertical-align: middle" height="20" src="https://cdn.freebiesupply.com/logos/large/2x/jest-logo-png-transparent.png"> <img style="vertical-align: middle" height="25" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/react/react.png">
 
 ### [Prettier Config](https://github.com/medly/configs/tree/master/packages/prettier-config) <img style="vertical-align: middle" height="21" src="https://brandslogos.com/wp-content/uploads/images/large/prettier-logo-vector.svg">
 
@@ -40,8 +40,7 @@ The config library consists of the below packages:
 ### [Webpack Config](https://github.com/medly/configs/tree/master/packages/webpack-config) <img style="vertical-align: middle" height="25" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/webpack/webpack.png">
 
 ### Contributing
-Please read CONTRIBUTING.md for details on our code of conduct, and the process for submitting us the pull requests.
-**CHECK if u can add this**
+Please read [CONTRIBUTING.md](https://github.com/medly/configs/tree/master/CONTRIBUTING.md) for details on our code of conduct, and the process for submitting us the pull requests.
 
 ## Contributors
 
