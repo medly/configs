@@ -2,19 +2,17 @@
 
 ## What is tsconfig.json ?
 
-The tsconfig.json file specifies the root files and the compiler options required to compile the project.
+The tsconfig.json file specifies the root files and the compiler options required to compile the projects.
 
 ## About
 
-**tsconfig.json** rules are recommended to compile your TypeScript projects.
+Recommended tsconfig.json rules to compile your TypeScript projects.
 
 > Shared [TypeScript config](https://www.typescriptlang.org/docs/handbook/tsconfig-json.html)
 
 > [Schema](http://json.schemastore.org/tsconfig)
 
 ## Install
-
-With Yarn:
 
 ```shell
 yarn add -D @medly/typescript-config

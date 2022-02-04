@@ -6,13 +6,12 @@ Prettier is an opinionated code formatter that supports alot of leading web tech
 
 ## About
 
-Prettier style guide is recommended to automatically format and clean your react codebase.
+Recommended Prettier style guide to automatically format and clean your react codebase.
 
 > Shared [Prettier config](https://prettier.io/docs/en/configuration.html)
 
 ## Install
 
-With Yarn:
 ```shell
 yarn add -D @medly/prettier-config
 ```

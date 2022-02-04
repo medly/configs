@@ -6,13 +6,11 @@
 
 ## About
 
-Stylelint rules are recommended to provide more linting (style) powers to your react based web applications.
+Recommended Stylelint rules to provide more linting (style) powers to your react based web applications.
 
-> Shared [stylelint config](https://stylelint.io/user-guide/configure/)
+> Shared [Stylelint config](https://stylelint.io/user-guide/configure/)
 
 ## Install
-
-With Yarn:
 
 ```shell
 yarn add -D @medly/stylelint-config

@@ -6,13 +6,12 @@
 
 ## About
 
-**semantic-release** configurations are recommended to automate your react applications release workflow.
+Recommended semantic-release configurations to automate your react applications release workflow.
 
 > Shared [semantic release config](https://semantic-release.gitbook.io/semantic-release/usage/configuration)
 
 ## Install
 
-With Yarn:
 ```shell
 yarn add -D @medly/semantic-release-config
 ```

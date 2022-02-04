@@ -10,7 +10,6 @@ It is a toolchain that is mainly used to convert ECMAScript 2015+ code into a ba
 
 ## Install
 
-With Yarn:
 ```shell
 yarn add -D @medly/babel-config
 ```

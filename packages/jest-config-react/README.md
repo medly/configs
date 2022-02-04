@@ -2,17 +2,16 @@
 
 ## What is Jest?
 
-Jest is an open-source testing framework built on JavaScript, designed majorly to work with React and React Native based web applications. It stands out by virtue of its simplicity, which makes it an ideal tool to test JavaScript Library Projects.
+Jest is a delightful JavaScript Testing Framework with a focus on simplicity. It works with projects using: Babel, TypeScript, Node, React, Angular, Vue and more.
 
 ## About
 
-Jest rules are recommended to provide more configuration power to your react based web applications.
+Recommended Jest rules to provide more configuration power to your react based web applications.
 
 > Shared [Jest config](https://jestjs.io/docs/configuration)
 
 ## Install
 
-With Yarn:
 ```shell
 yarn add -D @medly/jest-config-react
 ```

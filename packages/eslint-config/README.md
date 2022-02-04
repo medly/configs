@@ -8,7 +8,6 @@ ESLint is a tool for identifying and reporting patterns found in ECMAScript or J
 
 ## Install
 
-With Yarn:
 ```shell
 yarn add -D @medly/eslint-config
 ```

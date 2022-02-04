@@ -6,13 +6,12 @@ Rollup is a module bundler for JavaScript which compiles small pieces of code in
 
 ## About
 
-Rollup configurations are recommended to give next-generation bundling powers to your react web applications.
+Recommended Rollup configurations to give next-generation bundling powers to your react web applications.
 
 > Shared [Rollup config](https://rollupjs.org/guide/en/#configuration-files)
 
 ## Install
 
-With Yarn:
 ```shell
 yarn add -D @medly/rollup-config
 ```
