@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.6.0](https://github.com/medly/configs/compare/@medly/babel-config-react@0.5.0...@medly/babel-config-react@0.6.0) (2022-02-07)
+
+
+### Features
+
+* add data testid check in babel config ([#90](https://github.com/medly/configs/issues/90)) ([3d546e2](https://github.com/medly/configs/commit/3d546e2a7c97576e76b93daa582149ebc2ee65ce))
+
+
+
+
+
 # [0.5.0](https://github.com/medly/configs/compare/@medly/babel-config-react@0.4.0...@medly/babel-config-react@0.5.0) (2021-11-10)
 
 
