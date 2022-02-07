@@ -56,7 +56,7 @@ module.exports = function (api) {
         });
     }
 
-    if (api.env() === 'production') {
+    if (!process.env.WITH_DATA_TESTID && api.env() === 'production') {
         plugins.push(['react-remove-properties', { properties: ['data-testid'] }]);
     }
 
