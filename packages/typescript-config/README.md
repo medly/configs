@@ -1,14 +1,14 @@
-# Typescript Config <img style="vertical-align: middle" height="30" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/typescript/typescript.png">
+# TypeScript Config <img style="vertical-align: middle" height="30" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/typescript/typescript.png">
 
-# What is tsconfig.json ?
+## What is tsconfig.json ?
 
-The tsconfig.json file specifies the root files and the compiler options required to compile the project.
+The tsconfig.json file specifies the root files and the compiler options required to compile the projects.
 
 ## About
 
-Medly recommended rules to better compile your TypeScript project.
+Recommended tsconfig.json rules to compile your TypeScript projects.
 
-> Shared [typeScript config](https://www.typescriptlang.org/docs/handbook/tsconfig-json.html)
+> Shared [TypeScript config](https://www.typescriptlang.org/docs/handbook/tsconfig-json.html)
 
 > [Schema](http://json.schemastore.org/tsconfig)
 
@@ -32,4 +32,4 @@ Add below code in `tsconfig.json` file.
 
 ## Default config
 
-You can view the default config [here](tsconfig.json)
+To view the default config click [here](tsconfig.json)

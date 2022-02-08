@@ -2,13 +2,13 @@
 
 ## What is Jest?
 
-Jest is a delightful JavaScript Testing Framework with a focus on simplicity.
+Jest is a delightful JavaScript Testing Framework with a focus on simplicity. It works with projects using: Babel, TypeScript, Node, React, Angular, Vue and more.
 
 ## About
 
-Jest rules recommended by Medly to provide more configuration power to your react based web applications.
+Recommended Jest rules to provide more configuration power to your react based web applications.
 
-> Shared [jest config](https://jestjs.io/docs/configuration)
+> Shared [Jest config](https://jestjs.io/docs/configuration)
 
 ## Install
 
@@ -30,4 +30,4 @@ module.exports = configure({
 
 ## Default config
 
-You can view the default config [here](index.js)
+To view the default config click [here](index.js)

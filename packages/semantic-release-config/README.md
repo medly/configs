@@ -6,7 +6,7 @@
 
 ## About
 
-**semantic-release** configuration recommended by Medly to automate your react application's release workflow.
+Recommended semantic-release configurations to automate your react applications release workflow.
 
 > Shared [semantic release config](https://semantic-release.gitbook.io/semantic-release/usage/configuration)
 
@@ -30,4 +30,4 @@ Add below line in your `package.json`
 
 ## Default config
 
-You can view the default config [here](index.json)
+To view the default config click [here](index.json)

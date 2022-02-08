@@ -6,9 +6,9 @@ Rollup is a module bundler for JavaScript which compiles small pieces of code in
 
 ## About
 
-Rollup configuration recommended by Medly to give next-generation bundling powers to your react web applications.
+Recommended Rollup configurations to give next-generation bundling powers to your react web applications.
 
-> Shared [rollup config](https://rollupjs.org/guide/en/#configuration-files)
+> Shared [Rollup config](https://rollupjs.org/guide/en/#configuration-files)
 
 ## Install
 
@@ -54,6 +54,7 @@ Add below code in your `package.json`
 
 > **Note**: Add `tsconfig.json` file at the root level to emit type declaration files.
 
+
 ## Default config
 
-You can view the default config [here](index.js)
+To view the default config click [here](index.js)

@@ -1,10 +1,10 @@
-# Eslint Config <img style="vertical-align: middle" height="30" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/eslint/eslint.png">
+# ESLint Config <img style="vertical-align: middle" height="30" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/eslint/eslint.png">
 
 ## What is ESLint?
 
-It is a tool for identifying and reporting on patterns found in ECMAScript/JavaScript code, with the goal of making code more consistent and avoiding bugs.
+ESLint is a tool for identifying and reporting patterns found in ECMAScript or JavaScript code, with the goal of making code more consistent and avoiding bugs.
 
-> Shared [eslint config](https://eslint.org/docs/user-guide/getting-started)
+> Shared [ESLint config](https://eslint.org/docs/user-guide/getting-started)
 
 ## Install
 
@@ -26,4 +26,5 @@ Add below line in your `package.json`
 
 ## Default options
 
-You can view the default config [here](index.json)
+To view the default config click [here](index.json)
+
