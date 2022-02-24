@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.5.0](https://github.com/medly/configs/compare/@medly/webpack-config@0.4.0...@medly/webpack-config@0.5.0) (2022-02-24)
+
+
+### Features
+
+* add ttf font support in webpack config ([#92](https://github.com/medly/configs/issues/92)) ([78bc129](https://github.com/medly/configs/commit/78bc12916af9bdf4a1b6b745463eefbf24ca2da6))
+
+
+
+
+
 # [0.4.0](https://github.com/medly/configs/compare/@medly/webpack-config@0.3.1...@medly/webpack-config@0.4.0) (2021-12-10)
 
 
