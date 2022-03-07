@@ -20,12 +20,12 @@
     ],
     "author": "Mukul Bansal",
     "dependencies": {
-        "@babel/plugin-transform-react-jsx": "^7.16.0",
-        "@babel/preset-react": "^7.13.13",
+        "@babel/plugin-transform-react-jsx": "^7.17.3",
+        "@babel/preset-react": "^7.16.7",
         "@medly/babel-config": "0.1.4",
-        "babel-plugin-inline-react-svg": "1.1.1",
+        "babel-plugin-inline-react-svg": "^2.0.1",
         "babel-plugin-react-remove-properties": "^0.3.0",
-        "babel-plugin-styled-components": "^1.12.0",
+        "babel-plugin-styled-components": "^2.0.6",
         "react-hot-loader": "^4.13.0"
     },
     "peerDependencies": {
