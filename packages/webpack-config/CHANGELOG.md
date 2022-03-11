@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.6.0](https://github.com/medly/configs/compare/@medly/webpack-config@0.5.0...@medly/webpack-config@0.6.0) (2022-03-11)
+
+
+### Features
+
+* upgrade webpack-dev-server version to 4.7.4 ([#96](https://github.com/medly/configs/issues/96)) ([631e81d](https://github.com/medly/configs/commit/631e81d1905e5c418f4fdbba5f0ca699cf60b635))
+
+
+
+
+
 # [0.5.0](https://github.com/medly/configs/compare/@medly/webpack-config@0.4.0...@medly/webpack-config@0.5.0) (2022-02-24)
 
 
