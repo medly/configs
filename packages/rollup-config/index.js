@@ -1,28 +1,38 @@
-const { babel } = require('@rollup/plugin-babel');
-const commonjs = require('@rollup/plugin-commonjs');
-const { nodeResolve } = require('@rollup/plugin-node-resolve');
-const typescript = require('@rollup/plugin-typescript');
-const path = require('path');
-const fs = require('fs');
+import { babel } from '@rollup/plugin-babel';
+import commonjs from '@rollup/plugin-commonjs';
+import nodeResolve from '@rollup/plugin-node-resolve';
+import typescript from '@rollup/plugin-typescript';
 import svgr from '@svgr/rollup';
-const { terser } = require('rollup-plugin-terser');
+import fs from 'fs';
+import path from 'path';
+import { terser } from 'rollup-plugin-terser';
 
 const PACKAGE_ROOT_PATH = process.cwd(),
     SRC = path.join(PACKAGE_ROOT_PATH, './src'),
-    PKG_JSON = require(path.join(PACKAGE_ROOT_PATH, './package.json'));
+    PKG_JSON = require(path.join(PACKAGE_ROOT_PATH, './package.json')),
+    TS_CONFIG = path.join(PACKAGE_ROOT_PATH, './tsconfig.json');
 
-const extensions = ['.ts', '.tsx', '.js', '.jsx'];
+const extensions = ['.ts', '.tsx', '.js', '.jsx'],
+    isTypescriptProject = fs.existsSync(TS_CONFIG);
 
 const configs = ['es', 'cjs'].map(format => {
-    const TS_CONFIG = path.join(PACKAGE_ROOT_PATH, './tsconfig.json'),
-        isTypescriptProject = fs.existsSync(TS_CONFIG);
-
     return {
         input: path.join(PACKAGE_ROOT_PATH, `./src/index.${isTypescriptProject ? 'ts' : 'js'}`),
         preserveModules: true,
-        external: [/@babel\/runtime/, ...Object.keys(PKG_JSON.peerDependencies || {}), ...Object.keys(PKG_JSON.dependencies || {})],
+        external: [ 
+            ...Object.keys(PKG_JSON.peerDependencies || {}),
+            ...Object.keys(PKG_JSON.dependencies || {}),
+            /@babel\/runtime/,
+            'react/jsx-runtime',
+            'react/jsx-dev-runtime'
+        ],
         plugins: [
-            commonjs(),
+            commonjs({
+                namedExports: {
+                    'react/jsx-runtime': ['jsx', 'jsxs', 'Fragment'],
+                    'react/jsx-dev-runtime': ['jsx', 'jsxs', 'jsxDEV']
+                }
+            }),
             nodeResolve({
                 extensions,
                 customResolveOptions: { preserveSymlinks: false },
@@ -31,6 +41,7 @@ const configs = ['es', 'cjs'].map(format => {
             babel({
                 ...PKG_JSON.babel,
                 extensions,
+                include: ['src/**/*'],
                 babelHelpers: 'runtime'
             }),
             ...(isTypescriptProject
@@ -41,7 +52,7 @@ const configs = ['es', 'cjs'].map(format => {
                           baseUrl: PACKAGE_ROOT_PATH,
                           declaration: true,
                           outDir: `dist/${format}`,
-                          exclude: ['**/*.test.tsx', '**/*.test.ts', '**/*.stories.tsx', '**/*.stories.mdx'],
+                          exclude: ['**/*.test.tsx', '**/*.test.ts', '**/*.stories.tsx', '**/*.stories.mdx', '**/docs/**'],
                           include: ['src/**/*', 'module.d.ts'],
                           module: 'esnext'
                       })
