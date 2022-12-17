@@ -19,7 +19,7 @@ const configs = ['es', 'cjs'].map(format => {
     return {
         input: path.join(PACKAGE_ROOT_PATH, `./src/index.${isTypescriptProject ? 'ts' : 'js'}`),
         preserveModules: true,
-        external: [ 
+        external: [
             ...Object.keys(PKG_JSON.peerDependencies || {}),
             ...Object.keys(PKG_JSON.dependencies || {}),
             /@babel\/runtime/,
