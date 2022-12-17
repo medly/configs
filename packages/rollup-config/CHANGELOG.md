@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.7.5](https://github.com/medly/configs/compare/@medly/rollup-config@0.7.4...@medly/rollup-config@0.7.5) (2022-12-17)
+
+
+### Bug Fixes
+
+* fix lint issue in rollup config ([bef7858](https://github.com/medly/configs/commit/bef785881b0f8aec3d5031e8076fcd30d614b069))
+
+
+
+
+
 ## [0.7.4](https://github.com/medly/configs/compare/@medly/rollup-config@0.7.3...@medly/rollup-config@0.7.4) (2021-10-20)
 
 
