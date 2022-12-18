@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.7.7](https://github.com/medly/configs/compare/@medly/rollup-config@0.7.6...@medly/rollup-config@0.7.7) (2022-12-18)
+
+**Note:** Version bump only for package @medly/rollup-config
+
+
+
+
+
 ## [0.7.6](https://github.com/medly/configs/compare/@medly/rollup-config@0.7.5...@medly/rollup-config@0.7.6) (2022-12-18)
 
 **Note:** Version bump only for package @medly/rollup-config
