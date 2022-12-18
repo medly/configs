@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.7.0](https://github.com/medly/configs/compare/@medly/babel-config-react@0.6.0...@medly/babel-config-react@0.7.0) (2022-12-18)
+
+
+### Features
+
+* update babel config to support component library also ([c192f4b](https://github.com/medly/configs/commit/c192f4b26347a7b407a76f0b29127d76efd11f37))
+
+
+
+
+
 # [0.6.0](https://github.com/medly/configs/compare/@medly/babel-config-react@0.5.0...@medly/babel-config-react@0.6.0) (2022-02-07)
 
 
