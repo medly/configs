@@ -20,10 +20,12 @@
     ],
     "author": "Mukul Bansal",
     "dependencies": {
+        "@babel/plugin-transform-modules-commonjs": "^7.19.6",
         "@babel/plugin-transform-react-jsx": "^7.16.0",
         "@babel/preset-react": "^7.13.13",
         "@medly/babel-config": "0.1.4",
         "babel-plugin-inline-react-svg": "1.1.1",
+        "babel-plugin-polished": "^1.1.0",
         "babel-plugin-react-remove-properties": "^0.3.0",
         "babel-plugin-styled-components": "^1.12.0",
         "react-hot-loader": "^4.13.0"

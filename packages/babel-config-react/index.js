@@ -1,22 +1,24 @@
 module.exports = function (api) {
-    const overrides = [],
+    const ignore = [],
+        overrides = [],
         presets = [
             [
                 '@babel/preset-react',
                 {
-                    runtime: 'automatic'
+                    runtime: api.env('storybook') ? 'classic' : 'automatic'
                 }
             ]
         ],
         plugins = [
+            'polished',
             '@babel/plugin-transform-runtime',
             [
                 'babel-plugin-styled-components',
                 {
                     pure: true,
                     minify: true,
-                    fileName: false,
-                    displayName: false,
+                    fileName: api.env('storybook'),
+                    displayName: api.env('storybook'),
                     transpileTemplateLiterals: true
                 }
             ],
@@ -37,12 +39,13 @@ module.exports = function (api) {
             [
                 '@babel/plugin-transform-react-jsx',
                 {
-                    runtime: 'automatic'
+                    runtime: api.env('storybook') ? 'classic' : 'automatic'
                 }
             ]
         ];
 
-    if (api.env() === 'development') {
+    if (api.env() === 'development' || api.env('storybook')) {
+        plugins.push(['@babel/plugin-transform-modules-commonjs']);
         overrides.push({
             plugins: [
                 [
@@ -56,9 +59,13 @@ module.exports = function (api) {
         });
     }
 
-    if (!process.env.WITH_DATA_TESTID && api.env() === 'production') {
-        plugins.push(['react-remove-properties', { properties: ['data-testid'] }]);
+    if (api.env() === 'production') {
+        ignore.push('**/*.test.tsx', '**/*.test.ts', '**/test-utils.tsx', '**/*.stories.mdx', '**/*.stories.tsx', '__snapshots__', 'docs');
+
+        if (!process.env.WITH_DATA_TESTID) {
+            plugins.push(['react-remove-properties', { properties: ['data-testid'] }]);
+        }
     }
 
-    return { presets, plugins, overrides, extends: '@medly/babel-config' };
+    return { presets, plugins, ignore, overrides, extends: '@medly/babel-config' };
 };
