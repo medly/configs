@@ -1,11 +1,11 @@
-import { babel } from '@rollup/plugin-babel';
-import commonjs from '@rollup/plugin-commonjs';
-import nodeResolve from '@rollup/plugin-node-resolve';
-import typescript from '@rollup/plugin-typescript';
-import svgr from '@svgr/rollup';
-import fs from 'fs';
-import path from 'path';
-import { terser } from 'rollup-plugin-terser';
+const { babel } = require('@rollup/plugin-babel');
+const commonjs = require('@rollup/plugin-commonjs');
+const { nodeResolve } = require('@rollup/plugin-node-resolve');
+const typescript = require('@rollup/plugin-typescript');
+const svgr = require('@svgr/rollup').default;
+const fs = require('fs');
+const path = require('path');
+const { terser } = require('rollup-plugin-terser');
 
 const PACKAGE_ROOT_PATH = process.cwd(),
     SRC = path.join(PACKAGE_ROOT_PATH, './src'),
