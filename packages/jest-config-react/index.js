@@ -55,4 +55,5 @@ const merge = (target = {}, source) =>
 
 const configure = (config = {}) => merge(defaultConfig, config);
 
+module.exports = defaultConfig;
 module.exports.configure = configure;
