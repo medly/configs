@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.8.0](https://github.com/medly/configs/compare/@medly/rollup-config@0.7.7...@medly/rollup-config@0.8.0) (2022-12-23)
+
+
+### Features
+
+* add feature to pass babelConfig and tsConfig to rollup config ([516d2ad](https://github.com/medly/configs/commit/516d2ad5c7b97aa1606e1ed5b6803fed4d837961))
+
+
+
+
+
 ## [0.7.7](https://github.com/medly/configs/compare/@medly/rollup-config@0.7.6...@medly/rollup-config@0.7.7) (2022-12-18)
 
 **Note:** Version bump only for package @medly/rollup-config
