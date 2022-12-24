@@ -14,8 +14,8 @@ const PACKAGE_ROOT_PATH = process.cwd(),
 const extensions = ['.ts', '.tsx', '.js', '.jsx'];
 
 const getConfigs = ({
-    babelConfig = path.join(PACKAGE_ROOT_PATH, './tsconfig.json'),
-    tsConfig = path.join(PACKAGE_ROOT_PATH, './babel.config.js')
+    babelConfig = path.join(PACKAGE_ROOT_PATH, './babel.config.js'),
+    tsConfig = path.join(PACKAGE_ROOT_PATH, './tsconfig.json')
 } = {}) =>
     ['es', 'cjs'].map(format => {
         const isTypescriptProject = fs.existsSync(tsConfig);
