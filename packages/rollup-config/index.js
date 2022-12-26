@@ -18,10 +18,11 @@ const getConfigs = ({
     tsConfig = path.join(PACKAGE_ROOT_PATH, './tsconfig.json')
 } = {}) =>
     ['es', 'cjs'].map(format => {
-        const isTypescriptProject = fs.existsSync(tsConfig);
+        const isTsConfigExists = fs.existsSync(tsConfig),
+            isBabelConfigExists = fs.existsSync(babelConfig);
 
         return {
-            input: path.join(PACKAGE_ROOT_PATH, `./src/index.${isTypescriptProject ? 'ts' : 'js'}`),
+            input: path.join(PACKAGE_ROOT_PATH, `./src/index.${isTsConfigExists ? 'ts' : 'js'}`),
             external: [
                 ...Object.keys(PKG_JSON.peerDependencies || {}),
                 ...Object.keys(PKG_JSON.dependencies || {}),
@@ -42,12 +43,12 @@ const getConfigs = ({
                     mainFields: ['module', 'main']
                 }),
                 babel({
-                    ...(babelConfig ? { configFile: babelConfig } : PKG_JSON.babel),
+                    ...(isBabelConfigExists ? { configFile: babelConfig } : PKG_JSON.babel),
                     extensions,
                     include: ['src/**/*'],
                     babelHelpers: 'runtime'
                 }),
-                ...(isTypescriptProject
+                ...(isTsConfigExists
                     ? [
                           typescript({
                               tsconfig: tsConfig,
