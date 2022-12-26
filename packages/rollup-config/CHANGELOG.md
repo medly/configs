@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.8.2](https://github.com/medly/configs/compare/@medly/rollup-config@0.8.1...@medly/rollup-config@0.8.2) (2022-12-26)
+
+
+### Bug Fixes
+
+* check babel config file exists in rollup config ([dca6fb5](https://github.com/medly/configs/commit/dca6fb5b5b417c49883f4be03c91f2f50392edf1))
+
+
+
+
+
 ## [0.8.1](https://github.com/medly/configs/compare/@medly/rollup-config@0.8.0...@medly/rollup-config@0.8.1) (2022-12-24)
 
 
