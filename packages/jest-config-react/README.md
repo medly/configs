@@ -18,6 +18,20 @@ yarn add -D @medly/jest-config-react
 
 ## Usage
 
+### 1. Use default config
+
+Add below code in your `package.json`
+
+```json
+{
+ "script": {
+  "dist": "jest --config=node_modules/@medly/jest-config-react/index.js"
+ }
+}
+```
+
+### 2. Overwrite default settings
+
 Add below code in your `jest.config.js`
 
 ```js
@@ -26,6 +40,17 @@ const { configure } = require('@medly/jest-config-react');
 module.exports = configure({
  rootDir: './'
 });
+```
+
+OR
+
+```js
+const baseConfig = require('@medly/jest-config-react');
+
+module.exports = {
+ ...baseConfig,
+ rootDir: './'
+};
 ```
 
 ## Default config
