@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.5.0](https://github.com/medly/configs/compare/@medly/jest-config-react@0.4.1...@medly/jest-config-react@0.5.0) (2022-12-27)
+
+
+### Features
+
+* add feature to use default jest config ([9e38db5](https://github.com/medly/configs/commit/9e38db545eda9582542bbb6ae0481a3ef8982a22))
+
+
+
+
+
 ## [0.4.1](https://github.com/medly/configs/compare/@medly/jest-config-react@0.4.0...@medly/jest-config-react@0.4.1) (2022-12-19)
 
 **Note:** Version bump only for package @medly/jest-config-react
