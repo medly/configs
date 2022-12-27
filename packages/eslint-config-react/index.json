@@ -20,7 +20,7 @@
     },
     "ignorePatterns": ["**/*.snap"],
     "parser": "@typescript-eslint/parser",
-    "plugins": ["react", "react-hooks", "testing-library"],
+    "plugins": ["react", "react-hooks", "testing-library", "html"],
     "extends": ["@medly", "plugin:react/recommended", "plugin:react-hooks/recommended"],
     "rules": {
         "react/jsx-uses-react": "off",
