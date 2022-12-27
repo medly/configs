@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.4.0](https://github.com/medly/configs/compare/@medly/eslint-config-react@0.3.1...@medly/eslint-config-react@0.4.0) (2022-12-27)
+
+
+### Features
+
+* add html eslint plugin ([#99](https://github.com/medly/configs/issues/99)) ([1ba854a](https://github.com/medly/configs/commit/1ba854a8a2aaf49e005f2d2d3864b37bf4e938a1))
+
+
+
+
+
 ## [0.3.1](https://github.com/medly/configs/compare/@medly/eslint-config-react@0.3.0...@medly/eslint-config-react@0.3.1) (2021-12-03)
 
 **Note:** Version bump only for package @medly/eslint-config-react
