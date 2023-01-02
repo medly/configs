@@ -5,8 +5,10 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## [1.0.1](https://github.com/medly/configs/compare/@medly/jest-config-react@0.5.0...@medly/jest-config-react@1.0.1) (2023-01-02)
 
-**Note:** Version bump only for package @medly/jest-config-react
+### Refactor
 
+* remove configure option from jest config ([91a1457](https://github.com/medly/configs/commit/91a1457b344b13fa9443af6c3bbf45b1d7080fcb))
+Remove configure option from the jest config since it is just a json hence user can override the properties easily. Also by doing this users now can directly consume the json in npm script.
 
 
 
