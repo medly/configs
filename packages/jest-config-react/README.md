@@ -25,7 +25,7 @@ Add below code in your `package.json`
 ```json
 {
  "script": {
-  "dist": "jest --config=node_modules/@medly/jest-config-react/index.js"
+  "dist": "jest --config=node_modules/@medly/jest-config-react/jest.config.js"
  }
 }
 ```
@@ -33,16 +33,6 @@ Add below code in your `package.json`
 ### 2. Overwrite default settings
 
 Add below code in your `jest.config.js`
-
-```js
-const { configure } = require('@medly/jest-config-react');
-
-module.exports = configure({
- rootDir: './'
-});
-```
-
-OR
 
 ```js
 const baseConfig = require('@medly/jest-config-react');
