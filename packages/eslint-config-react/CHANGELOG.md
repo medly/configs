@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.1.0](https://github.com/medly/configs/compare/@medly/eslint-config-react@0.4.0...@medly/eslint-config-react@1.1.0) (2023-01-02)
+
+
+### Features
+
+* add import sort and order rules in eslint config ([98d9d6b](https://github.com/medly/configs/commit/98d9d6be4fddeeba85697680ecd2e0f733da85b7))
+
+
+
+
+
 # [0.4.0](https://github.com/medly/configs/compare/@medly/eslint-config-react@0.3.1...@medly/eslint-config-react@0.4.0) (2022-12-27)
 
 
