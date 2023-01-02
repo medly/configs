@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.0.2](https://github.com/medly/configs/compare/@medly/jest-config-react@1.0.1...@medly/jest-config-react@1.0.2) (2023-01-02)
+
+
+### Bug Fixes
+
+* update coverage file paths in jest config ([7e8b2ca](https://github.com/medly/configs/commit/7e8b2caa0a65fd0df9f51f0715226c656361e42a))
+
+
+
+
+
 ## [1.0.1](https://github.com/medly/configs/compare/@medly/jest-config-react@0.5.0...@medly/jest-config-react@1.0.1) (2023-01-02)
 
 ### Refactor
