@@ -8,6 +8,11 @@
     "settings": {
         "react": {
             "version": "detect"
+        },
+        "import/resolver": {
+            "node": {
+                "paths": "src"
+            }
         }
     },
     "parserOptions": {
@@ -20,9 +25,17 @@
     },
     "ignorePatterns": ["**/*.snap"],
     "parser": "@typescript-eslint/parser",
-    "plugins": ["react", "react-hooks", "testing-library", "html"],
-    "extends": ["@medly", "plugin:react/recommended", "plugin:react-hooks/recommended"],
+    "plugins": ["react", "react-hooks", "testing-library", "html", "import"],
+    "extends": ["@medly", "plugin:react/recommended", "plugin:react-hooks/recommended", "plugin:import/typescript"],
     "rules": {
+        "import/newline-after-import": 1,
+        "import/order": [
+            1,
+            {
+                "newlines-between": "always",
+                "groups": [["builtin", "external"], "internal", ["parent", "sibling", "index"]]
+            }
+        ],
         "react/jsx-uses-react": "off",
         "react/react-in-jsx-scope": "off",
         "react/jsx-fragments": "warn",
@@ -34,6 +47,13 @@
             "error",
             {
                 "allowArrowFunctions": true
+            }
+        ],
+        "sort-imports": [
+            1,
+            {
+                "ignoreCase": true,
+                "ignoreDeclarationSort": true
             }
         ]
     },
