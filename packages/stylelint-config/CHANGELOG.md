@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.3.0](https://github.com/medly/configs/compare/@medly/stylelint-config@0.2.0...@medly/stylelint-config@0.3.0) (2023-01-20)
+
+
+### Features
+
+* add stylelint processor for styled components ([#100](https://github.com/medly/configs/issues/100)) ([3c3bf3b](https://github.com/medly/configs/commit/3c3bf3bd5bb74eab673f11669a099a2a4790a3c7))
+
+
+
+
+
 # [0.2.0](https://github.com/medly/configs/compare/@medly/stylelint-config@0.1.2...@medly/stylelint-config@0.2.0) (2021-10-14)
 
 
