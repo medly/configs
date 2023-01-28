@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.3.1](https://github.com/medly/configs/compare/@medly/stylelint-config@0.3.0...@medly/stylelint-config@0.3.1) (2023-01-28)
+
+
+### Bug Fixes
+
+* fix false alarm for using css in js in media queries ([a4df717](https://github.com/medly/configs/commit/a4df7176272c0e40dcf949bb76537c4a8460abc7))
+
+
+
+
+
 # [0.3.0](https://github.com/medly/configs/compare/@medly/stylelint-config@0.2.0...@medly/stylelint-config@0.3.0) (2023-01-20)
 
 

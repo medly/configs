@@ -1,7 +1,7 @@
 {
     "name": "@medly/stylelint-config",
     "description": "Basic stylelint config",
-    "version": "0.3.0",
+    "version": "0.3.1",
     "sideEffects": false,
     "main": "index.json",
     "publishConfig": {
