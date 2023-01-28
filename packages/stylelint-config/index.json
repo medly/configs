@@ -14,6 +14,12 @@
                 "ignoreUnits": ["`"]
             }
         ],
+        "selector-type-no-unknown": [
+            true,
+            {
+                "ignoreTypes": ["/-styled-mixin/"]
+            }
+        ],
         "function-name-case": null
     }
 }
